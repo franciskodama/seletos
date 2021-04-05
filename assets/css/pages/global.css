@@ -1,0 +1,73 @@
+/*
+Color Scheme:
+    Dark Blue: #2D3092
+    Light Blue: #5E64FF
+    Medium Blue: #3C41DE
+    Brown Green: #91770A
+    Brown Yellow: #DEBE3C
+
+Fonts:
+    Headings:
+        font-family: 'Sen', Arial, sans-serif;
+    
+    Paragraph:
+        font-family: 'Roboto', Arial, sans-serif;
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+/*
+
+width: 480px
+@media only screen and (min-width: 30em) {
+}
+
+width: 768px
+@media only screen and (min-width: 48em) {
+}
+
+width: 960px
+@media only screen and (min-width: 60em) {
+}
+
+width: 1160px
+@media only screen and (min-width: 72.5em) {
+} 
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  background-color: #ffffff;
+  color: #212121;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  margin: 0 auto;
+  border: 1px solid red;
+  padding-top: 8.45em;
+  padding-bottom: 7.8em;
+}
+
+.r {
+  width: 90%;
+}
+
+.dark-section {
+  background-color: #2d3092;
+  padding: 8.45em 1em 7.8em 1em;
+}
