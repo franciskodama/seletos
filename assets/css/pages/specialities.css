@@ -1,2 +1,36 @@
 .section-specialities {
 }
+
+.specialities-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.specialities-card {
+  margin-top: 3em;
+  border: 1px solid rgb(219, 218, 218);
+  padding: 3em 1em;
+  width: 100%;
+}
+
+.specialities-card:hover {
+  background-color: var(--main-color-dark);
+  color: white;
+}
+
+.specialities-card img {
+  width: 3rem;
+  /* color: var(--main-color-medium); */
+}
+
+.card-title {
+  text-align: left;
+  margin: 1em 0;
+}
+
+.section-specialities .button {
+  margin-top: 6em;
+  align-self: center;
+}

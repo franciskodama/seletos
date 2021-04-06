@@ -1,9 +1,11 @@
 header {
-  border: 1px solid orange;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   padding: 1em;
+  background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-list {

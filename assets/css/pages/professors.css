@@ -1,2 +1,37 @@
 .section-professors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.professors-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  border: 1px solid rgb(219, 218, 218);
+  width: 100%;
+  background-color: white;
+}
+
+.professors-contend {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-bottom: 2rem;
+}
+
+.professors-contend p {
+  margin-bottom: 1rem;
+}
+
+.professors-contend ul {
+  list-style-type: circle;
+  padding-left: 1em;
+}
+
+.professors-card-title {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  font-size: 1.5rem;
+  text-align: left;
 }

@@ -1,2 +1,42 @@
 .section-packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.packages-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  border: 1px solid rgb(219, 218, 218);
+  width: 100%;
+}
+
+.package-contend {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.packages-card .text-light {
+  margin-bottom: 3em;
+}
+
+.packages-card-title {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.package-subject {
+  border: 2px solid var(--main-color-darkest);
+  padding: 0 0.5em;
+  margin-bottom: 2em;
+  align-self: flex-start;
+}
+
+.packages-card a {
+  align-self: center;
+  margin: 2em 0;
 }

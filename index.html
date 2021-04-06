@@ -69,78 +69,184 @@
 
     <!-- HEADER  -->
     
-    <header>
-        <img src="./assets/img/logo-seletos.png" alt="Logotipo Seletos Preparatório">
+    <header id="top">
+        <img src="./assets/img/logo-seletos.png" href="./index.html" alt="Logotipo Seletos Preparatório">
 
         <div class="menu-hamburguer-bar">
             <button aria-label="Open navigation" class="open-nav">&#9776;</button>
         </div> 
-
         <nav>
             <button aria-label="Close navigation" class="close-nav">&times;</button>
             <ul class="nav-list">
-                <!-- <a class="button nav-button js-button" href="#work-experience">Work Experience</a> -->
-                <li class="nav-item" href="">A Empresa</li>
-                <li class="nav-item" href="">Aulas</li>
-                <li class="nav-item" href="">Depoimentos</li>
-                <li class="nav-item" href="">Contato</li>
+                <li><a class="nav-item" href="#company">A Empresa</a></li>
+                <li><a class="nav-item" href="#specialities">Aulas</a></li>
+                <li><a class="nav-item" href="#professors">Professores</a></li>
+                <li><a class="nav-item" href="#testemunials">Depoimentos</a></li>
+                <li><a class="nav-item" href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
-    
-    
-     
     <main>
 
         <!-- HERO -->
 
         <section class="section section-hero">
-            <p>Seletos Preparatório</p>
-            <h1>Um novo conceito em aula preparatória.</h1>
-            <button>veja nossos cursos</button>
+            <div class="r">
+                <p>Seletos Preparatório</p>
+                <h1>Um novo conceito em aula preparatória.</h1>
+                <a class="button" type="button" href="#specialities">veja nossos cursos</a>
+            </div>
         </section>
-
 
         <!-- SPECIALITIES -->
 
-        <section class="section r section-specialities">
-            <div class="">
+        <section id="specialities" class="section section-specialities">
+            <div class="r">
+                <h3>Nossas Especialidades</h3>
+                <h2>Lorem ipsum dolor sit amet</h2>
                 
+                <div class="specialities-container">
+                    <div class="specialities-card">
+                        <img src="./assets/img/portuguese.svg" alt="ícone língua portuguesa">
+                        <h2 class="card-title">Língua Portuguesa</h2>
+                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                    </div>
 
+                    <div class="specialities-card">
+                        <img src="./assets/img/essay.svg" alt="ícone redação">
+                        <h2 class="card-title">Redação</h2>
+                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                    </div>
+
+                    <div class="specialities-card">
+                        <img src="./assets/img/math.svg" alt="ícone matemática">
+                        <h2 class="card-title">Matemática</h2>
+                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                    </div>
+
+                    <div class="specialities-card">
+                        <img src="./assets/img/logic.svg" alt="ícone raciocínio lógico">
+                        <h2 class="card-title">Raciocínio Lógico</h2>
+                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                    </div>
+                    <a class="button" type="button" href="#packages">veja nossos pacotes</a>
+                </div>
+                
             </div>
         </section>
 
         <!-- MISSION -->
 
-        <section class="section r section-mission">
-            <div class="">
-                
-
+        <section class="section section-mission">
+            <div class="r">
+                <h3>Nossa Missão</h3>
+                <h1>Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet.</h1>
             </div>
         </section>
 
         <!-- PACKAGES -->
 
-        <section class="section r section-packages">
-            <div class="">
+        <section id="packages"class="section section-packages">
+            <div class="r">
+                <h3>Nossos Pacotes</h3>
+                <h2>Lorem ipsum dolor sit amet</h2>
                 
+                <div class="packages-container">
 
+                    <div class="packages-card">
+                        <img src="./assets/img/enem.jpg" alt="Logotipo ENEM">
+                            <div class="package-contend">
+                                <h2 class="packages-card-title">ENEM</h2>
+                                <p class="package-subject">Língua Portuguesa</p>
+                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                                <p class="price-light">10 aulas de<br>R$ 000,00 por</p>
+                                <p class="price">R$ 000,00</p>
+                            </div>
+                        <a class="button" type="button" href="#contact">tenho interesse</a>
+                    </div>
+
+                    <div class="packages-card">
+                        <img src="./assets/img/concurso.jpg" alt="Concurso Público">
+                            <div class="package-contend">
+                                <h2 class="packages-card-title">Concurso Público</h2>
+                                <p class="package-subject">matemática</p>
+                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                                <p class="price-light">10 aulas de<br>R$ 000,00 por</p>
+                                <p class="price">R$ 000,00</p>
+                            </div>
+                        <a class="button" type="button" href="#contact">tenho interesse</a>
+                    </div>
+
+                    <div class="packages-card">
+                        <img src="./assets/img/vestibular.jpg" alt="Vestibular">
+                            <div class="package-contend">
+                                <h2 class="packages-card-title">Vestibular</h2>
+                                <p class="package-subject">Redação</p>
+                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                                <p class="price-light">10 aulas de<br>R$ 000,00 por</p>
+                                <p class="price">R$ 000,00</p>
+                            </div>
+                        <a class="button" type="button" href="#contact">tenho interesse</a>
+                    </div>
+                
             </div>
         </section>
 
         <!-- PROFESSORS -->
 
-        <section class="section section-professors dark-section">
-            <div class="">
+        <section id="professors" class="section section-professors dark-section">
+            <div class="r">
+                <h3>Nossos Professores</h3>
+                <h2 class="title-light">Educadores de alto nível</h2>
                 
+                <div class="professors-container">
+                    <div class="professors-card">
+                        <img src="./assets/img/prof-nalva.jpg" alt="Professora Nalva Carrijo">
+                        <div class="professors-contend">
+                            <h2 class="professors-card-title">Nalva Carrijo</h2>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis.</p>
+                            <ul>
+                                <li class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li class="text-light">Etiam faucibus ullamcorper dui eu venenatis.</li>
+                                <li class="text-light">Faucibus ullamcorper dui eu venenatis.</li>
+                            </ul>
+                        </div>
+                    </div>
 
+                    <div class="professors-card">
+                        <img src="./assets/img/prof-roberto.jpg" alt="Professor Roberto Borges">
+                        <div class="professors-contend">
+                            <h2 class="professors-card-title">Roberto Borges</h2>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis.</p>
+                            <ul>
+                                <li class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li class="text-light">Etiam faucibus ullamcorper dui eu venenatis.</li>
+                                <li class="text-light">Faucibus ullamcorper dui eu venenatis.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
         <!-- COMPANY -->
 
-        <section class="section r section-company">
-            <div class="">
+        <section id="company" class="section section-company">
+            <div class="r">
+                <h3>A Empresa</h3>
+                <h2>Didática e excelência</h2>
+                
+                <div class="company-container">
+                    <div class="professors-card">
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis.</p>
+                            <ul>
+                                <li class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li class="text-light">Etiam faucibus ullamcorper dui eu venenatis.</li>
+                                <li class="text-light">Faucibus ullamcorper dui eu venenatis.</li>
+                            </ul>
+                        </div>
+                    </div>
                 
 
             </div>
@@ -148,7 +254,7 @@
 
         <!-- TESTEMONIALS -->
 
-        <section class="section section-testemonials dark-section">
+        <section id="testemunials" class="section section-testemonials dark-section">
             <div class="">
                 
 
@@ -157,7 +263,7 @@
 
         <!-- CONTACT -->
 
-        <section class="section r section-contact">
+        <section id="contact" class="section section-contact">
             <div class="r">
                 
 
@@ -177,7 +283,7 @@
         <!-- FOOTER -->
 
     <footer class="section">
-        <div class="">
+        <div class="r">
             
 
         </div>

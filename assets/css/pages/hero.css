@@ -1,4 +1,12 @@
 .section-hero {
-  background-color: #bfddfd;
-  padding: 1em;
+  background-color: var(--main-color-super-light);
+}
+
+.section-hero p {
+  margin-top: 8em;
+}
+
+.section-hero p,
+h1 {
+  padding-bottom: 1.5em;
 }
