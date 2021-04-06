@@ -2,7 +2,7 @@ h1,
 h2,
 h3,
 .nav-item {
-  font-family: "Sen", Arial, sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
 }
 
@@ -46,7 +46,7 @@ h3,
 
 .section-hero p,
 button {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: var(--sencond-font);
 }
 
 .button {
@@ -84,4 +84,59 @@ button {
 
 .title-light {
   color: white;
+}
+
+.testemunials-text {
+  font-size: 1rem;
+}
+
+.testemunials-text,
+.testemunials-course {
+  font-family: var(--sencond-font);
+}
+
+.testemunials-course {
+  font-weight: 300;
+}
+
+.testemunials-text,
+.testemunials-name,
+.testemunials-course {
+  color: white;
+}
+
+.testemunials-course {
+  font-size: 0.8rem;
+}
+
+.testemunials-name {
+  color: var(--second-color-light);
+}
+
+label {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: var(--main-color-darkest);
+}
+
+::placeholder {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: grey;
+  font-family: var(--sencond-font);
+  text-align: left;
+}
+
+.footer-title {
+  font-size: 0.7rem;
+  font-family: var(--main-font);
+}
+
+.footer-below {
+  font-size: 0.5rem;
+}
+
+footer * {
+  color: #878b98;
+  font-weight: 300;
 }

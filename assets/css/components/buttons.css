@@ -3,4 +3,9 @@
   color: white;
   border: none;
   padding: 1em 2.2em;
+  cursor: pointer;
+}
+
+.button-contact {
+  display: inline-block;
 }

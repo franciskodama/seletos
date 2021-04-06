@@ -45,6 +45,8 @@ width: 1160px
 }
 
 body {
+  --main-font: "Sen", Arial, sans-serif;
+  --second-font: "Roboto", Arial, sans-serif;
   --main-color-darkest: #070031;
   --main-color-dark: #2d3092;
   --main-color-medium: #3c41de;

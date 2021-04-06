@@ -1,2 +1,22 @@
 .section-testemunials {
+  margin: 0 auto;
+  padding: 4em 1em 4em 1em;
+  max-width: 100%;
+}
+
+.testemunials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testemunials-img {
+  border: 1px solid rgb(219, 218, 218);
+  border-radius: 50%;
+  width: 8em;
+  margin-bottom: 2em;
+}
+
+.testemunials-text {
+  margin-bottom: 2em;
 }
