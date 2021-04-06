@@ -35,3 +35,14 @@
   font-size: 1.5rem;
   text-align: left;
 }
+
+.custom-marker > ::marker {
+  content: "\f00c";
+  font-size: 0.1em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+}
+
+.custom-marker > li {
+  padding-left: 0.5rem;
+}
