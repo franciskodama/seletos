@@ -73,6 +73,7 @@ img {
 }
 
 .r {
+  margin: 0 auto;
   max-width: 100%;
   padding: 1em;
 }
@@ -80,4 +81,23 @@ img {
 .dark-section {
   background-color: var(--main-color-dark);
   padding: 8.45em 1em 7.8em 1em;
+}
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+@media only screen and (min-width: 20em) {
+}
+
+@media only screen and (min-width: 48em) {
+  .r {
+    max-width: 75%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 72.5em) {
 }

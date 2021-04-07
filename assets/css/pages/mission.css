@@ -1,3 +1,27 @@
 .section-mission {
   background-color: var(--main-color-super-light);
 }
+
+.section-mission h1 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+@media only screen and (min-width: 20em) {
+}
+
+@media only screen and (min-width: 48em) {
+  .section-mission h1 {
+    max-width: 24em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 72.5em) {
+}

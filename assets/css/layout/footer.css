@@ -1,20 +1,27 @@
-.footer-container {
-  /* margin: 0 auto; */
+footer {
+  background-color: var(--main-color-darkest);
 }
 
-footer {
-  background-color: #0c0a1d;
-  padding: 8.45em 1em 7.8em 1em;
+.footer-container {
+  padding: 3em 1.3em 1em 1.3em;
 }
 
 .footer-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
+  width: 7em;
 }
 
-.footer-logo .footer-text {
+.footer-logo p {
+  margin-top: 1em;
+  line-height: 1.2em;
+  text-align: center;
+  width: 7em;
+}
+
+.footer-title {
+  margin-bottom: 1em;
 }
 
 .footer-desktop-left img {
@@ -23,7 +30,12 @@ footer {
 
 .icons-socialmedia {
   display: flex;
-  margin: 1em 0 2em 0;
+}
+
+.footer-logo,
+.icons-socialmedia,
+.footer-text {
+  margin-bottom: 3em;
 }
 
 .fa-facebook {
@@ -31,5 +43,28 @@ footer {
 }
 
 .footer-below {
-  background-color: var(--main-color-medium);
+  padding: 0.8em 2em;
+  background-color: var(--main-color-darkest);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #878b98;
+}
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+@media only screen and (min-width: 48em) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 72.5em) {
 }

@@ -58,3 +58,12 @@ nav {
 .navigation-open {
   transform: translateX(-100%);
 }
+
+@media only screen and (min-width: 48em) {
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+  }
+}

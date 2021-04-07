@@ -7,6 +7,30 @@
 }
 
 .section-hero p,
-h1 {
+.hero-main-text {
   padding-bottom: 1.5em;
+}
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+@media only screen and (min-width: 20em) {
+  .section-hero h1 {
+    max-width: 12em;
+  }
+
+  .r-hero {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 72.5em) {
 }

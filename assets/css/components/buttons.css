@@ -1,4 +1,9 @@
 .button {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-decoration: none;
   background-color: var(--main-color-dark);
   color: white;
   border: none;
@@ -7,5 +12,6 @@
 }
 
 .button-contact {
-  display: inline-block;
+  display: block;
+  width: 8em;
 }

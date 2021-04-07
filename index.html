@@ -70,21 +70,22 @@
     <!-- HEADER  -->
     
     <header id="top">
-        <img src="./assets/img/logo-seletos.png" href="./index.html" alt="Logotipo Seletos Preparatório">
-
-        <div class="menu-hamburguer-bar">
-            <button aria-label="Open navigation" class="open-nav">&#9776;</button>
-        </div> 
-        <nav>
-            <button aria-label="Close navigation" class="close-nav">&times;</button>
-            <ul class="nav-list">
-                <li><a class="nav-item" href="#company">A Empresa</a></li>
-                <li><a class="nav-item" href="#specialities">Aulas</a></li>
-                <li><a class="nav-item" href="#professors">Professores</a></li>
-                <li><a class="nav-item" href="#testemunials">Depoimentos</a></li>
-                <li><a class="nav-item" href="#contact">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="section-header">
+            <img src="./assets/img/logo-seletos.png" href="./index.html" alt="Logotipo Seletos Preparatório">
+            <div class="menu-hamburguer-bar">
+                <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+            </div> 
+            <nav>
+                <button aria-label="Close navigation" class="close-nav">&times;</button>
+                <ul class="nav-list">
+                    <li><a class="nav-item" href="#company">A Empresa</a></li>
+                    <li><a class="nav-item" href="#specialities">Aulas</a></li>
+                    <li><a class="nav-item" href="#professors">Professores</a></li>
+                    <li><a class="nav-item" href="#testemunials">Depoimentos</a></li>
+                    <li><a class="nav-item" href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
 
@@ -92,9 +93,11 @@
 
         <section class="section section-hero">
             <div class="r">
-                <p>Seletos Preparatório</p>
-                <h1>Um novo conceito em aula preparatória.</h1>
-                <a class="button" type="button" href="#specialities">veja nossos cursos</a>
+                <div class="r-hero">
+                    <p>Seletos Preparatório</p>
+                    <h1 class="hero-main-text">Um novo conceito em aula preparatória.</h1>
+                    <a class="button" type="button" href="#specialities">veja nossos cursos</a>
+                </div>
             </div>
         </section>
 
@@ -154,27 +157,35 @@
                 <div class="packages-container">
 
                     <div class="packages-card">
-                        <img src="./assets/img/enem.jpg" alt="Logotipo ENEM">
-                            <div class="package-contend">
+                        <img class="packages-img" src="./assets/img/enem.jpg" alt="Logotipo ENEM">
+                        <div class="packages-inner-container">       
+                            <div class="package-text-container">
                                 <h2 class="packages-card-title">ENEM</h2>
                                 <p class="package-subject">Língua Portuguesa</p>
                                 <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                            </div>
+                            <div class="package-price-container">
                                 <p class="price-light">10 aulas de<br>R$ 000,00 por</p>
                                 <p class="price">R$ 000,00</p>
+                                <a class="button package-button" type="button" href="#contact">tenho interesse</a>
                             </div>
-                        <a class="button" type="button" href="#contact">tenho interesse</a>
+                        </div>
                     </div>
 
                     <div class="packages-card">
-                        <img src="./assets/img/concurso.jpg" alt="Concurso Público">
-                            <div class="package-contend">
+                        <img class="packages-img" src="./assets/img/concurso.jpg" alt="Concurso Público">
+                        <div class="packages-inner-container">       
+                            <div class="package-text-container">
                                 <h2 class="packages-card-title">Concurso Público</h2>
                                 <p class="package-subject">matemática</p>
                                 <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                            </div>
+                            <div class="package-price-container">
                                 <p class="price-light">10 aulas de<br>R$ 000,00 por</p>
                                 <p class="price">R$ 000,00</p>
+                                <a class="button package-button" type="button" href="#contact">tenho interesse</a>
                             </div>
-                        <a class="button" type="button" href="#contact">tenho interesse</a>
+                        </div>
                     </div>
 
                     <div class="packages-card">
@@ -194,7 +205,7 @@
 
         <!-- PROFESSORS -->
 
-        <section id="professors" class="section section-professors dark-section">
+        <section id="professors" class="section dark-section">
             <div class="r">
                 <h3>Nossos Professores</h3>
                 <h2 class="title-light">Educadores de alto nível</h2>
@@ -311,7 +322,7 @@
 
         <!-- MAPS -->
 
-        <section class="section-maps">
+        <section>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.290363389282!2d-47.95500004894146!3d-19.74281438664361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad1af955c9c63%3A0x1e993e20e71498a1!2sAv.%20Alexandre%20Barbosa%2C%201030%20-%20Merc%C3%AAs%2C%20Uberaba%20-%20MG%2C%2038060-200!5e0!3m2!1sen!2sbr!4v1617736583481!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </main>
@@ -325,12 +336,12 @@
                     <div class="footer-desktop-left">
                         <div class="footer-logo">
                             <img src="./assets/img/logo-seletos.png" alt="Logotipo Seletos Preparatório">
-                            <p class="footer-text">Onde todos<br>aprendem.</p>
+                            <p class="footer-text">Onde todos aprendem.</p>
                         </div>
                         <p class="footer-title">Siga-nos:</p>
                         <div class="icons-socialmedia">
-                            <p><i class="fab fa-2x fa-instagram"></i></p>
-                            <p><i class="fab fa-2x fa-facebook"></i></p>
+                            <a href="https://www.instagram.com/seletospreparatorio/" ><i class="fab fa-2x fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/seletospreparatorio/" ><i class="fab fa-2x fa-facebook"></i></a>
                         </div>
                     </div>
 
@@ -354,7 +365,7 @@
     </div>
     <div class="footer-below">
         <h5>Seletos Preparatórios © 2021. Todos os direitos reservados.</h5>
-        <p>Política de Privacidade</p>
+        <a href="./index.html" >Política de Privacidade</a>
     </div>
     </footer>
 

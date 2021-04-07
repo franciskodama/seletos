@@ -20,3 +20,19 @@
 .testemunials-text {
   margin-bottom: 2em;
 }
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+@media only screen and (min-width: 20em) {
+}
+
+@media only screen and (min-width: 48em) {
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 72.5em) {
+}
