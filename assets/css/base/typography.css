@@ -16,32 +16,19 @@ h3,
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.3;
 }
 
-.section-hero h1 {
-  margin-bottom: 1em;
-}
-
-.section-hero p {
-  margin-top: 1em;
-}
-
 h2 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 h3 {
-  font-size: 0.9em;
+  font-size: 1em;
+  font-weight: 700;
   color: var(--main-color-light);
   margin-bottom: 1.2em;
-}
-
-h2,
-h3,
-.section-mission h1 {
-  text-align: center;
 }
 
 .section-hero p,
@@ -50,13 +37,19 @@ button {
 }
 
 .section-hero p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--main-color-dark);
 }
 
 .text-light {
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+h2,
+h3,
+.section-mission h1 {
+  text-align: center;
 }
 
 .package-subject,
@@ -83,7 +76,8 @@ button {
 }
 
 .testemunials-text {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .testemunials-text,
@@ -142,4 +136,20 @@ i {
   color: white;
   font-weight: 300;
   font-size: 0.6rem;
+}
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+@media only screen and (min-width: 20em) {
+}
+
+@media only screen and (min-width: 48em) {
+}
+
+@media only screen and (min-width: 62em) {
+}
+
+@media only screen and (min-width: 75em) {
 }

@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -8,10 +8,26 @@
   background-color: var(--main-color-dark);
   color: white;
   border: none;
-  padding: 1em 2.2em;
+  padding: 1.1em 2.2em;
   cursor: pointer;
 }
 
 .button-contact {
   width: 8em;
+}
+
+/* ====================================
+        MEDIA QUERY
+======================================= */
+
+@media only screen and (min-width: 20em) {
+}
+
+@media only screen and (min-width: 48em) {
+}
+
+@media only screen and (min-width: 62em) {
+}
+
+@media only screen and (min-width: 75em) {
 }

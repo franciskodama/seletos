@@ -46,14 +46,21 @@ footer {
   padding: 0.8em 2em;
   background-color: var(--main-color-darkest);
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   border-top: 1px solid #878b98;
+}
+
+.footer-below h5 {
+  margin-bottom: 1em;
 }
 
 /* ====================================
         MEDIA QUERY
 ======================================= */
+
+@media only screen and (min-width: 20em) {
+}
 
 @media only screen and (min-width: 48em) {
   .footer-container {
@@ -63,8 +70,8 @@ footer {
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 62em) {
 }
 
-@media only screen and (min-width: 72.5em) {
+@media only screen and (min-width: 75em) {
 }
