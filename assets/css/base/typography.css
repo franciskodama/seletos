@@ -38,12 +38,14 @@ button {
 
 .section-hero p {
   font-size: 1rem;
+  font-weight: 500;
   color: var(--main-color-dark);
 }
 
 .text-light {
-  font-weight: 300;
-  font-size: 0.9rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--third-color-light);
 }
 
 h2,
