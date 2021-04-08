@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   font-size: 0.9rem;
   font-weight: 400;
   text-transform: capitalize;
@@ -12,6 +13,5 @@
 }
 
 .button-contact {
-  display: block;
   width: 8em;
 }

@@ -9,7 +9,6 @@ label {
 input,
 textarea {
   padding: 1em;
-  border-radius: 0.3rem;
   width: 95%;
   border: 1px solid rgb(158, 157, 157);
 }
