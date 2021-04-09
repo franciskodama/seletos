@@ -17,7 +17,7 @@
 
 @media only screen and (min-width: 20em) {
   .section-hero h1 {
-    max-width: 12em;
+    max-width: 9em;
   }
 
   .r-hero {
@@ -27,9 +27,33 @@
 }
 
 @media only screen and (min-width: 48em) {
+  .section-hero p {
+    margin-top: 8em;
+  }
+
+  .section-hero p,
+  .hero-main-text {
+    padding-bottom: 1em;
+  }
+
+  .r-hero a {
+    margin-bottom: 1em;
+  }
 }
 
 @media only screen and (min-width: 62em) {
+  .section-hero p {
+    margin-top: 12em;
+  }
+
+  .section-hero p,
+  .hero-main-text {
+    padding-bottom: 2em;
+  }
+
+  .r-hero a {
+    margin-bottom: 4em;
+  }
 }
 
 @media only screen and (min-width: 75em) {

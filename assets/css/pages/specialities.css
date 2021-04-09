@@ -8,7 +8,7 @@
 .specialities-card {
   margin-top: 3em;
   border: 1px solid rgb(219, 218, 218);
-  padding: 3em 1em;
+  padding: 3em 1.5em;
   width: 100%;
 }
 
@@ -28,7 +28,6 @@
 
 .section-specialities .button {
   margin-top: 6em;
-  align-self: center;
 }
 
 /* ====================================
@@ -45,6 +44,11 @@
 
   .specialities-card {
     width: 47%;
+    padding: 3em;
+  }
+
+  .specialities-card img {
+    width: 4rem;
   }
 }
 
@@ -52,4 +56,8 @@
 }
 
 @media only screen and (min-width: 75em) {
+  .specialities-card {
+    width: 23%;
+    padding: 1.5em;
+  }
 }

@@ -1,5 +1,9 @@
-.contact-container h2 {
+.section-contact h2 {
   margin-bottom: 2em;
+}
+
+.contact-container {
+  margin: 0 auto;
 }
 
 label {
@@ -25,10 +29,16 @@ textarea {
 }
 
 @media only screen and (min-width: 48em) {
+  .contact-container {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 62em) {
 }
 
 @media only screen and (min-width: 75em) {
+  .contact-container {
+    width: 70%;
+  }
 }

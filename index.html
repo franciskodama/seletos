@@ -97,7 +97,7 @@
                 <div class="r-hero">
                     <p>Seletos Preparatório</p>
                     <h1 class="hero-main-text">Um novo conceito em aula preparatória.</h1>
-                    <a class="button" type="button" href="#specialities">veja nossos cursos</a>
+                    <a class="button hero-button" type="button" href="#specialities">veja nossos cursos</a>
                 </div>
             </div>
         </section>
@@ -107,7 +107,7 @@
         <section id="specialities" class="section section-specialities">
             <div class="r">
                 <h3>Nossas Especialidades</h3>
-                <h2>Lorem ipsum dolor sit amet</h2>
+                <h2>Lorem ipsum dolor sit</h2>
                 
                 <div class="specialities-container">
                     <div class="specialities-card">
@@ -133,6 +133,9 @@
                         <h2 class="card-title">Raciocínio Lógico</h2>
                         <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
                     </div>
+                    
+                </div>
+                <div class="center">
                     <a class="button" type="button" href="#packages">veja nossos pacotes</a>
                 </div>
                 
@@ -163,6 +166,8 @@
                             <div class="package-text-container">
                                 <h2 class="packages-card-title">ENEM</h2>
                                 <p class="package-subject">Língua Portuguesa</p>
+                                <p class="package-subject">Redação</p>
+                                <p class="package-subject package-subject-last">Matemática</p>
                                 <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
                             </div>
                             <div class="package-price-container">
@@ -178,7 +183,9 @@
                         <div class="packages-inner-container">       
                             <div class="package-text-container">
                                 <h2 class="packages-card-title">Concurso Público</h2>
-                                <p class="package-subject">matemática</p>
+                                <p class="package-subject">Língua Portuguesa</p>
+                                <p class="package-subject">Redação</p>
+                                <p class="package-subject package-subject-last">Raciocínio Lógico</p>
                                 <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
                             </div>
                             <div class="package-price-container">
@@ -194,7 +201,28 @@
                         <div class="packages-inner-container">       
                             <div class="package-text-container">
                                 <h2 class="packages-card-title">Vestibular</h2>
+                                <p class="package-subject">Língua Portuguesa</p>
                                 <p class="package-subject">Redação</p>
+                                <p class="package-subject package-subject-last">Matemática</p>
+                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                            </div>
+                            <div class="package-price-container">
+                                <p class="price-light">10 aulas de<br>R$ 000,00 por</p>
+                                <p class="price">R$ 000,00</p>
+                                <a class="button package-button" type="button" href="#contact">tenho interesse</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="packages-card">
+                        <img class="packages-img" src="./assets/img/vestibular.jpg" alt="Concurso Público">
+                        <div class="packages-inner-container">       
+                            <div class="package-text-container">
+                                <h2 class="packages-card-title">Particular</h2>
+                                <p class="package-subject">Língua Portuguesa</p>
+                                <p class="package-subject">Redação</p>
+                                <p class="package-subject">Matemática</p>
+                                <p class="package-subject package-subject-last">Raciocínio Lógico</p>
                                 <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
                             </div>
                             <div class="package-price-container">
@@ -213,7 +241,7 @@
         <section id="professors" class="section dark-section">
             <div class="r">
                 <h3>Nossos Professores</h3>
-                <h2 class="title-light">Educadores de alto nível</h2>
+                <h2 class="professors-title">Educadores de alto nível</h2>
                 
                 <div class="professors-container">
                     <div class="professors-card">
@@ -298,12 +326,12 @@
 
         <!-- CONTACT -->
 
-        <section id="contact" class="section">
+        <section id="contact" class="section section-contact">
             <div class="r">
-                <div class="contact-container">                
+                <!-- <div class="contact-container">                 -->
                     <h3>Contato</h3>
                     <h2>Queremos receber sua mensagem</h2>
-                    <article>
+                    <article class="contact-container">
                         <form>
                             <div class="form-field">  
                                 <label for="name">Nome:</label>
@@ -324,7 +352,7 @@
                             <input class="button button-contact" type="submit" value="Enviar">
                         </form>
                     </article>
-                </div>
+                <!-- </div> -->
             </div>
         </section>
 
@@ -338,7 +366,7 @@
         <!-- FOOTER -->
 
     <footer>
-        <!-- <div class="section"> -->
+        <div class="section-footer">
             <div class="r">
                 <div class="footer-container">
                     <div class="footer-desktop-left">
@@ -363,17 +391,29 @@
                         8h - 20h</p>
                         
                         <h4 class="footer-title">Contatos:</h4>
-                        <p class="footer-text">34 99999-9999<br>
-                        contato@seletospreparatorio.com.br</p>
+                        <div class="footer-contatos">
+                            <p class="footer-text">contato@seletospreparatorio.com.br</p>
+                            <div class="whatsapp-container">
+                                <a href="https://api.whatsapp.com/send?phone=5511986752090"><i class="fab fa-2x fa-whatsapp"></i>
+                                <div class="whatsapp-container-text">
+                                    <p class="footer-text-contatos">34 99999 9999<br>Prof. Nalva Carrijo</p></a>
+                                </div>
+                            </div>
+                            <div class="whatsapp-container">
+                                <a href="https://api.whatsapp.com/send?phone=5511986752090"><i class="fab fa-2x fa-whatsapp"></i>
+                                <div class="whatsapp-container-text">
+                                    <p class="footer-text-contatos">34 99999 9999<br>Prof. Roberto Borges</p></a>
+                                </div>                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        <!-- </div> -->
-     
-    </div>
-    <div class="footer-below">
-        <h5>Seletos Preparatórios © 2021. Todos os direitos reservados.</h5>
-        <a href="./index.html" >Política de Privacidade</a>
+        </div>
+        <div class="footer-below">
+            <h5>Seletos Preparatórios © 2021. Todos os direitos reservados.</h5>
+            <a href="./index.html" >Política de Privacidade</a>
+        </div>
     </div>
     </footer>
 

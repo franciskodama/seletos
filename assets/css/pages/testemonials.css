@@ -29,10 +29,16 @@
 }
 
 @media only screen and (min-width: 48em) {
+  .testemunials-text {
+    max-width: 80%;
+  }
 }
 
 @media only screen and (min-width: 62em) {
 }
 
 @media only screen and (min-width: 75em) {
+  .testemunials-text {
+    max-width: 70%;
+  }
 }

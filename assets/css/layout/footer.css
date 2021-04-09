@@ -3,7 +3,7 @@ footer {
 }
 
 .footer-container {
-  padding: 3em 1.3em 1em 1.3em;
+  padding: 3em 1.3em 3em 1.3em;
 }
 
 .footer-logo {
@@ -42,6 +42,27 @@ footer {
   margin-left: 0.5em;
 }
 
+.footer-contatos {
+  display: flex;
+  flex-direction: column;
+}
+
+.whatsapp-container {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+}
+
+.footer-contatos i {
+  margin-right: 0.5em;
+  padding-bottom: 0.4em;
+}
+
+.footer-contatos p:first-of-type {
+  margin-bottom: 1em;
+}
+
 .footer-below {
   padding: 0.8em 2em;
   background-color: var(--main-color-darkest);
@@ -63,6 +84,11 @@ footer {
 }
 
 @media only screen and (min-width: 48em) {
+  .section-footer {
+    margin: 0 auto;
+    width: 80%;
+  }
+
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -74,4 +100,7 @@ footer {
 }
 
 @media only screen and (min-width: 75em) {
+  .section-footer {
+    width: 70%;
+  }
 }
