@@ -94,13 +94,23 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .footer-below {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 62em) {
 }
 
 @media only screen and (min-width: 75em) {
+  .footer-desktop-right {
+    flex-direction: row;
+  }
+
   .section-footer {
-    width: 70%;
+    width: 90%;
   }
 }

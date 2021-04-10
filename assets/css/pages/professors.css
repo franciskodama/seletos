@@ -15,6 +15,12 @@
   margin-top: 2em;
   width: 100%;
   background-color: white;
+  border-radius: 0.3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.professors-card img {
+  border-radius: 0.3em 0.3em 0 0;
 }
 
 .professors-contend {
@@ -66,9 +72,20 @@
   .professors-card {
     width: 47%;
   }
+
+  .professors-contend {
+    padding: 2em;
+  }
 }
 
 @media only screen and (min-width: 62em) {
+  .professors-container {
+    justify-content: space-evenly;
+  }
+
+  .professors-card {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 75em) {

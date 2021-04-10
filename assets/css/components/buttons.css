@@ -8,6 +8,7 @@
   background-color: var(--main-color-dark);
   color: white;
   border: none;
+  border-radius: 0.3em;
   padding: 1.1em 2.2em;
   cursor: pointer;
 }
@@ -16,18 +17,17 @@
   width: 8em;
 }
 
-/* ====================================
-        MEDIA QUERY
-======================================= */
-
-@media only screen and (min-width: 20em) {
+.btn-top {
+  background-color: var(--main-color-dark);
+  display: inline-block;
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  border: 1px solid gray;
 }
 
-@media only screen and (min-width: 48em) {
-}
-
-@media only screen and (min-width: 62em) {
-}
-
-@media only screen and (min-width: 75em) {
+.btn-top i {
+  color: white;
 }

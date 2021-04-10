@@ -27,6 +27,7 @@ h1 {
 h2,
 .card-title {
   font-size: 1.5em;
+  line-height: 1.8rem;
 }
 
 h3 {
@@ -59,7 +60,11 @@ h3,
   text-align: center;
 }
 
-.package-subject,
+.section-mission h1 {
+  font-size: 1.3rem;
+}
+
+.package-text-container li,
 .packages-card-title {
   text-transform: uppercase;
 }
@@ -109,6 +114,7 @@ h3,
 .testemunials-name {
   color: var(--second-color-light);
   font-size: 1.7rem;
+  line-height: 2rem;
 }
 
 label {
@@ -174,4 +180,8 @@ i {
 }
 
 @media only screen and (min-width: 75em) {
+  .section-mission h1 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
 }

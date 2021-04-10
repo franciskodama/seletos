@@ -31,6 +31,13 @@
     margin-top: 8em;
   }
 
+  .section-hero {
+    background-image: url(../../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: right 10% bottom;
+  }
+
   .section-hero p,
   .hero-main-text {
     padding-bottom: 1em;
@@ -57,4 +64,13 @@
 }
 
 @media only screen and (min-width: 75em) {
+  .section-hero {
+    background-size: auto 85%;
+    background-position: right 20% bottom;
+  }
+
+  @media only screen and (min-width: 85em) {
+    .section-hero {
+      background-position: right 30% bottom;
+    }
 }

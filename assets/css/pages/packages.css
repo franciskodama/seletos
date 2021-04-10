@@ -7,44 +7,36 @@
 .packages-card {
   margin-top: 3em;
   border: 1px solid rgb(219, 218, 218);
-  width: 100%;
+  border-radius: 0.3em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* .packages-img {
-  border: 1px solid red;
-} */
+.packages-img {
+  border-radius: 0.3em 0.3em 0 0;
+}
 
 .packages-inner-container {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
 }
 
 .package-text-container {
   padding: 0 1em;
-  border: 1px solid red;
 }
 
 .package-price-container {
-  padding: 0 1em 2.5em 1em;
-  border: 1px solid red;
-  width: 100%;
+  padding: 1em;
+}
+.package-price-container a {
+  margin-bottom: 1em;
 }
 
 .price {
   margin-bottom: 2em;
 }
 
-.package-button {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-  width: 14em;
-}
-
 .packages-card .text-light {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .packages-card-title {
@@ -52,15 +44,20 @@
   font-size: 1.5rem;
   text-align: left;
 }
+.package-text-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-.package-subject {
+.package-text-container li {
   border: 2px solid var(--main-color-darkest);
   padding: 0 0.5em;
   margin-bottom: 0.7em;
-  align-self: flex-start;
+  text-align: left;
 }
 
-.package-subject-last {
+.package-text-container li:last-of-type {
   margin-bottom: 2em;
 }
 
@@ -82,6 +79,6 @@
 
 @media only screen and (min-width: 75em) {
   .packages-card {
-    width: 24%;
+    width: 31%;
   }
 }
