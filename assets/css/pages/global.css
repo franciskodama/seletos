@@ -101,13 +101,10 @@ img {
 
 @media only screen and (min-width: 75em) {
   .r {
-    /* padding: 4em 22em; */
+    padding: 8em;
+    max-width: 90em;
   }
+}
 
-  @media only screen and (min-width: 85em) {
-    .r {
-      padding: 4em 22em;
-    }
-
-
+@media only screen and (min-width: 85em) {
 }

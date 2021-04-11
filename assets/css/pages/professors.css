@@ -1,12 +1,11 @@
 .professors-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
+  gap: 3em;
 }
 
 .professors-title {
-  margin-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 .professors-card {
@@ -41,7 +40,7 @@
 
 .professors-card-title {
   margin-top: 1em;
-  margin-bottom: 0.3em;
+  margin-bottom: 1em;
   font-size: 1.5rem;
   text-align: left;
 }
@@ -62,15 +61,10 @@
 ======================================= */
 
 @media only screen and (min-width: 20em) {
-}
-
-@media only screen and (min-width: 48em) {
   .professors-container {
-    flex-direction: row;
-  }
-
-  .professors-card {
-    width: 47%;
+    flex-direction: column;
+    max-width: 26em;
+    margin: 0 auto;
   }
 
   .professors-contend {
@@ -78,14 +72,19 @@
   }
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 48em) {
   .professors-container {
-    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 4em;
+    max-width: 50em;
   }
 
   .professors-card {
-    width: 40%;
+    flex: 1 1 40%;
   }
+}
+
+@media only screen and (min-width: 62em) {
 }
 
 @media only screen and (min-width: 75em) {

@@ -3,36 +3,38 @@ h2,
 h3,
 .nav-item {
   font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+.close-nav,
+.open-nav,
+.nav-item {
   font-weight: 700;
 }
 
 h2 {
   line-height: 3.2rem;
-}
-
-.close-nav,
-.open-nav {
-  font-weight: 700;
-}
-
-.nav-item {
-  font-weight: 700;
+  margin-bottom: 1em;
 }
 
 h1 {
   font-size: 1.8rem;
-  line-height: 1.3;
+  line-height: 1.3em;
 }
 
 h2,
 .card-title {
   font-size: 1.5em;
-  line-height: 1.8rem;
+}
+
+.card-title {
+  line-height: 1.1em;
 }
 
 h3 {
   font-size: 1em;
-  font-weight: 700;
   color: var(--main-color-light);
   margin-bottom: 1.2em;
 }

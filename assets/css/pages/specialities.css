@@ -1,8 +1,7 @@
 .specialities-container {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .specialities-card {
@@ -32,21 +31,26 @@
   margin-top: 6em;
 }
 
+.section-specialities h2 {
+  padding-bottom: 1em;
+}
+
 /* ====================================
         MEDIA QUERY
 ======================================= */
 
 @media only screen and (min-width: 20em) {
+  .specialities-card {
+    max-width: 20em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
 }
 
 @media only screen and (min-width: 48em) {
-  .specialities-container {
-    flex-direction: row;
-  }
-
   .specialities-card {
-    width: 47%;
-    padding: 3em;
+    max-width: 44%;
+    padding: 2em;
   }
 
   .specialities-card img {
@@ -54,12 +58,11 @@
   }
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 70em) {
+  .specialities-card {
+    width: 23%;
+  }
 }
 
 @media only screen and (min-width: 75em) {
-  .specialities-card {
-    width: 23%;
-    padding: 1.5em;
-  }
 }

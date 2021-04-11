@@ -1,6 +1,7 @@
 .company-outside-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* ------ LEFT CONTAINER ------ */

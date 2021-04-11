@@ -13,7 +13,7 @@ label {
 input,
 textarea {
   padding: 1em;
-  width: 95%;
+  width: 100%;
   border: 1px solid rgb(158, 157, 157);
   border-radius: 0.3em;
 }

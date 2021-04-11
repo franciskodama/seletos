@@ -24,7 +24,19 @@
     margin: 0 auto;
     max-width: 90%;
   }
+
+
 }
+
+@media only screen and (min-width: 33em){
+  .section-hero {
+    background-image: url(../../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: right 20% bottom;
+  }
+}
+
 
 @media only screen and (min-width: 48em) {
   .section-hero p {
@@ -32,9 +44,9 @@
   }
 
   .section-hero {
-    background-image: url(../../img/hero.png);
+    /* background-image: url(../../img/hero.png);
     background-repeat: no-repeat;
-    background-size: auto 80%;
+    background-size: auto 80%; */
     background-position: right 10% bottom;
   }
 

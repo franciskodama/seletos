@@ -43,6 +43,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     
+    <link rel="stylesheet" href="./assets/css/vendors/glide.core.min.css">
+
     <link rel="stylesheet" href="./assets/css/base/reset.css">
     <link rel="stylesheet" href="./assets/css/base/typography.css">
     
@@ -53,7 +55,6 @@
     <link rel="stylesheet" href="./assets/css/layout/footer.css">
 
     <link rel="stylesheet" href="./assets/css/components/buttons.css">
-    <link rel="stylesheet" href="./assets/css/components/cards.css">
 
     <link rel="stylesheet" href="./assets/css/pages/global.css">
     <link rel="stylesheet" href="./assets/css/pages/hero.css">
@@ -79,11 +80,11 @@
             <nav>
                 <button aria-label="Close navigation" class="close-nav">&times;</button>
                 <ul class="nav-list">
-                    <li><a class="nav-item" href="#company">A Empresa</a></li>
-                    <li><a class="nav-item" href="#specialities">Aulas</a></li>
-                    <li><a class="nav-item" href="#professors">Professores</a></li>
-                    <li><a class="nav-item" href="#testemunials">Depoimentos</a></li>
-                    <li><a class="nav-item" href="#contact">Contato</a></li>
+                    <li><a class="nav-item js-button" href="#company">A Empresa</a></li>
+                    <li><a class="nav-item js-button" href="#specialities">Aulas</a></li>
+                    <li><a class="nav-item js-button" href="#professors">Professores</a></li>
+                    <li><a class="nav-item js-button" href="#testemunials">Depoimentos</a></li>
+                    <li><a class="nav-item js-button" href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -158,104 +159,120 @@
                 <h3>Nossos Pacotes</h3>
                 <h2>Lorem ipsum dolor sit amet</h2>
                 
-                <div class="packages-container">
 
-                    <div class="packages-card">
-                        <img class="packages-img" src="./assets/img/enem.jpg" alt="Logotipo ENEM">
-                      
-                        <div class="packages-inner-container">       
 
-                            <div class="package-text-container">
-                                <h2 class="packages-card-title">ENEM</h2>
-                                <ul>
-                                    <li>Língua Portuguesa</li>
-                                    <li>Redação</li>
-                                    <li>Matemática</li>
-                                    <li>Raciocínio Lógico</li>
-                                </ul>
-                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="packages-card">
+                                <img class="packages-img" src="./assets/img/enem.jpg" alt="Logotipo ENEM">
+                                <div class="packages-inner-container">       
+                                    <div class="package-text-container">
+                                        <h2 class="packages-card-title">ENEM</h2>
+                                        <ul>
+                                            <li>Língua Portuguesa</li>
+                                            <li>Redação</li>
+                                            <li>Matemática</li>
+                                        </ul>
+                                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                                    </div>
+                                    <div class="package-price-container">
+                                        <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
+                                        <p class="price">R$ 000,00</p>
+                                        <div class="center">
+                                            <a class="button package-button" type="button" href="#contact">tenho interesse</a>
+                                        </div>    
+                                    </div>
+                                </div>
                             </div>
+                        </li>
 
-                            <div class="package-price-container">
-                                <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
-                                <p class="price">R$ 000,00</p>
-                                <div class="center">
-                                    <a class="button package-button" type="button" href="#contact">tenho interesse</a>
-                                </div>    
+
+                        <li class="glide__slide">
+                            <div class="packages-card">
+                                <img class="packages-img" src="./assets/img/concurso.jpg" alt="Concurso Público">
+                                <div class="packages-inner-container">       
+                                    <div class="package-text-container">
+                                        <h2 class="packages-card-title">Concurso Público</h2>
+                                        <ul>
+                                            <li>Língua Portuguesa</li>
+                                            <li>Matemática</li>
+                                            <li>Raciocínio Lógico</li>
+                                        </ul>
+                                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                                    </div>
+                                    <div class="package-price-container">
+                                        <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
+                                        <p class="price">R$ 000,00</p>
+                                        <div class="center">
+                                            <a class="button package-button" type="button" href="#contact">tenho interesse</a>
+                                        </div>    
+                                    </div>
+                                </div>
                             </div>
-
-                        </div>
-
+                        </li>
+                        
+                        
+                        <li class="glide__slide">
+                            <div class="packages-card">
+                                <img class="packages-img" src="./assets/img/vestibular.jpg" alt="Concurso Público">
+                                <div class="packages-inner-container">       
+                                    <div class="package-text-container">
+                                        <h2 class="packages-card-title">Vestibular</h2>
+                                        <ul>
+                                            <li>Língua Portuguesa</li>
+                                            <li>Redação</li>
+                                            <li>Matemática</li>
+                                        </ul>
+                                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                                    </div>
+                                    <div class="package-price-container">
+                                        <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
+                                        <p class="price">R$ 000,00</p>
+                                        <div class="center">
+                                            <a class="button package-button" type="button" href="#contact">tenho interesse</a>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        
+                        <li class="glide__slide">
+                            <div class="packages-card">
+                                <img class="packages-img" src="./assets/img/particular.jpg" alt="Concurso Público">
+                                <div class="packages-inner-container">       
+                                    <div class="package-text-container">
+                                        <h2 class="packages-card-title">Particular</h2>
+                                        <ul>
+                                            <li>Língua Portuguesa</li>
+                                            <li>Redação</li>
+                                            <li>Matemática</li>
+                                            <li>Raciocínio Lógico</li>
+                                        </ul>
+                                        <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
+                                    </div>
+                                    <div class="package-price-container">
+                                        <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
+                                        <p class="price">R$ 000,00</p>
+                                        <div class="center">
+                                            <a class="button package-button" type="button" href="#contact">tenho interesse</a>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
                     </div>
 
-                    <div class="packages-card">
-                        <img class="packages-img" src="./assets/img/concurso.jpg" alt="Concurso Público">
-                        <div class="packages-inner-container">       
-                            <div class="package-text-container">
-                                <h2 class="packages-card-title">Concurso Público</h2>
-                                <ul>
-                                    <li>Língua Portuguesa</li>
-                                    <li>Redação</li>
-                                    <li>Matemática</li>
-                                    <li>Raciocínio Lógico</li>
-                                </ul>
-                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
-                            </div>
-                            <div class="package-price-container">
-                                <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
-                                <p class="price">R$ 000,00</p>
-                                <div class="center">
-                                    <a class="button package-button" type="button" href="#contact">tenho interesse</a>
-                                </div>    
-                            </div>
-                        </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="btn-carousel-left glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></button>
+                        <button class="btn-carousel-right glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></button>
                     </div>
+                  </div>
 
-                    <div class="packages-card">
-                        <img class="packages-img" src="./assets/img/vestibular.jpg" alt="Concurso Público">
-                        <div class="packages-inner-container">       
-                            <div class="package-text-container">
-                                <h2 class="packages-card-title">Vestibular</h2>
-                                <ul>
-                                    <li>Língua Portuguesa</li>
-                                    <li>Redação</li>
-                                    <li>Matemática</li>
-                                    <!-- <li>Raciocínio Lógico</li> -->
-                                </ul>
-                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
-                            </div>
-                            <div class="package-price-container">
-                                <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
-                                <p class="price">R$ 000,00</p>
-                                <div class="center">
-                                    <a class="button package-button" type="button" href="#contact">tenho interesse</a>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="packages-card">
-                        <img class="packages-img" src="./assets/img/vestibular.jpg" alt="Concurso Público">
-                        <div class="packages-inner-container">       
-                            <div class="package-text-container">
-                                <h2 class="packages-card-title">Particular</h2>
-                                <ul>
-                                    <li>Língua Portuguesa</li>
-                                    <li>Redação</li>
-                                    <li>Matemática</li>
-                                    <li>Raciocínio Lógico</li>
-                                </ul>
-                                <p class="text-light">Etiam faucibus ullamcorper dui eu venenatis. Mauris sit amet iaculis mauris. Sed elemtum, porttitor, leo dui sollicitudin erat.</p>
-                            </div>
-                            <div class="package-price-container">
-                                <p class="price-light">10 aulas de<br>sua escolha<br>R$ 000,00 por</p>
-                                <p class="price">R$ 000,00</p>
-                                <div class="center">
-                                    <a class="button package-button" type="button" href="#contact">tenho interesse</a>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
 
             </div>
         </section>
@@ -339,12 +356,57 @@
 
         <section id="testemunials" class="section-testemunials dark-section">
             <div class="r">
+
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+
+                        <li class="glide__slide">
+                            <div class="testemunials-container">
+                                <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
+                                <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
+                                <h2 class="testemunials-name">MARIENE STRAWBERRY</h2>
+                                <p class="testemunials-course">Aluna de Concurso Público</p>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="testemunials-container">
+                                <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
+                                <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
+                                <h2 class="testemunials-name">FRANCIS KODAMA</h2>
+                                <p class="testemunials-course">Aluna de Concurso Público</p>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="testemunials-container">
+                                <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
+                                <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
+                                <h2 class="testemunials-name">ANDRE ZORZO</h2>
+                                <p class="testemunials-course">Aluna de Concurso Público</p>
+                            </div>
+                        </li>
+
+                      </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="btn-carousel-left glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></button>
+                        <button class="btn-carousel-right glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                  </div>
+
+
+
+<!-- 
                 <div class="testemunials-container">
                     <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
                     <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
                     <h2 class="testemunials-name">MARIENE STRAWBERRY</h2>
                     <p class="testemunials-course">Aluna de Concurso Público</p>
                 </div>
+ -->
+
             </div>
         </section>
 
@@ -352,7 +414,6 @@
 
         <section id="contact" class="section section-contact">
             <div class="r">
-                <!-- <div class="contact-container">                 -->
                     <h3>Contato</h3>
                     <h2>Aguardamos sua mensagem</h2>
                     <article class="contact-container">
@@ -376,7 +437,6 @@
                             <input class="button button-contact" type="submit" value="Enviar">
                         </form>
                     </article>
-                <!-- </div> -->
             </div>
         </section>
 
@@ -452,6 +512,7 @@
     <div class="btn-top">
         <a href="#top"><i class="fas fa-angle-up fa-2x"></i></a>
     </div>
+    <script src="./assets/js/vendors/glide.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

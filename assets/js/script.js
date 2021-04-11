@@ -41,6 +41,25 @@ for (var i = 0; i < closeButtonAfterClick.length; i++) {
 }
 
 
+// Packages Slider ---------------------------------------
+
+new Glide('.glide', {
+  type: 'carousel',
+  perView: 3,
+  autoplay: 3000,
+  gap: 40,
+  breakpoints: {
+    1080: {
+      perView: 2
+    },
+    768: {
+      perView: 1
+    }
+  }
+
+}).mount()
+
+
 
 
 //SELECTORS --------------------------------

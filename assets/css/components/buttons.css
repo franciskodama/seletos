@@ -13,6 +13,25 @@
   cursor: pointer;
 }
 
+.btn-carousel-right,
+.btn-carousel-left {
+  background-color: var(--main-color-dark);
+  padding: 1em 0.8em;
+  border: none;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 50%;
+  border: 1px solid gray;
+}
+
+.btn-carousel-right {
+  right: -1em;
+}
+
+.btn-carousel-left {
+  left: -1em;
+}
+
 .button-contact {
   width: 8em;
 }
@@ -28,6 +47,27 @@
   border: 1px solid gray;
 }
 
-.btn-top i {
+.btn-top i,
+.btn-carousel-right i,
+.btn-carousel-left i {
   color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn-carousel-right {
+    right: -3.5em;
+  }
+
+  .btn-carousel-left {
+    left: -3.5em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+}
+
+@media only screen and (min-width: 62em) {
+}
+
+@media only screen and (min-width: 75em) {
 }
