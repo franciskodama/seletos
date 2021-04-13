@@ -7,15 +7,15 @@
     <title>Seletos Preparatório</title>
     <meta name="description" content="Seletos Preparatório Website" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="icon" type="image/png"   sizes="196x196" href="./assets/img/favicon-196x196.png">
-    <link rel="icon" type="image/png"   sizes="160x160" href="./assets/img/favicon-160x160.png">
-    <link rel="apple-touch-icon"        sizes="144x144" href="./assets/img/apple-touch-icon-72x72-precomposed@2x.png">
-    <link rel="apple-touch-icon"        sizes="114x114" href="./assets/img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="icon" type="image/png"   sizes="96x96" href="./assets/img/favicon-96x96.png">
-    <link rel="apple-touch-icon"        sizes="72x72" href="./assets/img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon"        sizes="57x57" href="./assets/img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="icon" type="image/png"   sizes="32x32" href="./assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png"   sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png"   sizes="196x196" href="./assets/img/favicon/favicon-196x196.png">
+    <link rel="icon" type="image/png"   sizes="160x160" href="./assets/img/favicon/favicon-160x160.png">
+    <link rel="apple-touch-icon"        sizes="144x144" href="./assets/img/favicon/apple-touch-icon-72x72-precomposed@2x.png">
+    <link rel="apple-touch-icon"        sizes="114x114" href="./assets/img/favicon/apple-touch-icon-114x114-precomposed.png">
+    <link rel="icon" type="image/png"   sizes="96x96" href="./assets/img/favicon/favicon-96x96.png">
+    <link rel="apple-touch-icon"        sizes="72x72" href="./assets/img/favicon/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon"        sizes="57x57" href="./assets/img/favicon/apple-touch-icon-57x57-precomposed.png">
+    <link rel="icon" type="image/png"   sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png"   sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
     <meta name="apple-mobile-web-app-title" content="My title">
     <meta name="author" content="./contributors.txt" />
     <meta name="theme-color" content="#005395">
@@ -73,18 +73,16 @@
     
     <header>
         <div class="section-header">
-            <img src="./assets/img/logo-seletos.png" href="./index.html" alt="Logotipo Seletos Preparatório">
-            <div class="menu-hamburguer-bar">
-                <button aria-label="Open navigation" class="open-nav">&#9776;</button>
-            </div> 
+            <a href="./index.html"><img src="./assets/img/logo-seletos.png" alt="Logotipo Seletos Preparatório"></a>
+            <button aria-label="Open navigation" class="open-nav"><i class="button-hamburguer fas fa-3x fa-bars"></i></button>
             <nav>
-                <button aria-label="Close navigation" class="close-nav">&times;</button>
+                <button aria-label="Close navigation" class="close-nav"><i class="fas fa-3x fa-times"></i></button>
                 <ul class="nav-list">
-                    <li><a class="nav-item js-button" href="#company">A Empresa</a></li>
-                    <li><a class="nav-item js-button" href="#specialities">Aulas</a></li>
-                    <li><a class="nav-item js-button" href="#professors">Professores</a></li>
-                    <li><a class="nav-item js-button" href="#testemunials">Depoimentos</a></li>
-                    <li><a class="nav-item js-button" href="#contact">Contato</a></li>
+                    <li><a class="nav-item smooth-scroll" href="#company">A Empresa</a></li>
+                    <li><a class="nav-item smooth-scroll" href="#specialities">Aulas</a></li>
+                    <li><a class="nav-item smooth-scroll" href="#professors">Professores</a></li>
+                    <li><a class="nav-item smooth-scroll" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="nav-item smooth-scroll" href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -96,8 +94,16 @@
         <section id="top" class="section section-hero">
             <div class="r">
                 <div class="r-hero">
+                    <div class="flier flier-plus">
+                        <i class="fas fa-3x fa-plus"></i>
+                    </div>
+                    <div class="flier flier-equal">
+                        <i class="fas fa-3x fa-equals"></i>
+                    </div>
                     <p>Seletos Preparatório</p>
-                    <h1 class="hero-main-text">Um novo conceito em aula preparatória.</h1>
+                    <div class="hero-main-text-container">
+                        <h1 class="hero-main-text">Um novo conceito em aula preparatória.</h1>
+                    </div>
                     <a class="button hero-button" type="button" href="#specialities">veja nossos cursos</a>
                 </div>
             </div>
@@ -161,7 +167,7 @@
                 
 
 
-                <div class="glide">
+                <div class="glide carousel-packages">
                     <div class="glide__track" data-glide-el="track">
                       <ul class="glide__slides">
                         <li class="glide__slide">
@@ -267,8 +273,8 @@
                     </div>
 
                     <div class="glide__arrows" data-glide-el="controls">
-                        <button class="btn-carousel-left glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></button>
-                        <button class="btn-carousel-right glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></button>
+                        <button class="btn-carousel-left-packages glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-2x fa-chevron-left"></i></button>
+                        <button class="btn-carousel-right-packages glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-2x fa-chevron-right"></i></button>
                     </div>
                   </div>
 
@@ -354,59 +360,47 @@
 
         <!-- TESTEMONIALS -->
 
-        <section id="testemunials" class="section-testemunials dark-section">
+        <section id="testimonials" class="section-testimonials dark-section">
             <div class="r">
 
-                <div class="glide">
+                <div class="glide carousel-testimonials">
                     <div class="glide__track" data-glide-el="track">
                       <ul class="glide__slides">
 
                         <li class="glide__slide">
-                            <div class="testemunials-container">
-                                <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
-                                <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
-                                <h2 class="testemunials-name">MARIENE STRAWBERRY</h2>
-                                <p class="testemunials-course">Aluna de Concurso Público</p>
+                            <div class="testimonials-container">
+                                <img class="testimonials-img" src="./assets/img/testimonial-mariana.png" alt="">
+                                <h3 class="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
+                                <h2 class="testimonials-name">Mariana Zorzo</h2>
+                                <p class="testimonials-course">Aluna de Concurso Público</p>
                             </div>
                         </li>
 
                         <li class="glide__slide">
-                            <div class="testemunials-container">
-                                <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
-                                <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
-                                <h2 class="testemunials-name">FRANCIS KODAMA</h2>
-                                <p class="testemunials-course">Aluna de Concurso Público</p>
+                            <div class="testimonials-container">
+                                <img class="testimonials-img" src="./assets/img/testimonial-francis.png" alt="">
+                                <h3 class="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
+                                <h2 class="testimonials-name">Francis Kodama</h2>
+                                <p class="testimonials-course">Aluna de Concurso Público</p>
                             </div>
                         </li>
 
                         <li class="glide__slide">
-                            <div class="testemunials-container">
-                                <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
-                                <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
-                                <h2 class="testemunials-name">ANDRE ZORZO</h2>
-                                <p class="testemunials-course">Aluna de Concurso Público</p>
+                            <div class="testimonials-container">
+                                <img class="testimonials-img" src="./assets/img/testimonial-andre.png" alt="">
+                                <h3 class="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
+                                <h2 class="testimonials-name">André Zorzo</h2>
+                                <p class="testimonials-course">Aluna de Concurso Público</p>
                             </div>
                         </li>
 
                       </ul>
                     </div>
                     <div class="glide__arrows" data-glide-el="controls">
-                        <button class="btn-carousel-left glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></button>
-                        <button class="btn-carousel-right glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></button>
+                        <button class="btn-carousel-left-testimonials glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-2x fa-chevron-left"></i></button>
+                        <button class="btn-carousel-right-testimonials glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-2x fa-chevron-right"></i></button>
                     </div>
                   </div>
-
-
-
-<!-- 
-                <div class="testemunials-container">
-                    <img class="testemunials-img" src="./assets/img/testimonial-mariana.png" alt="">
-                    <h3 class="testemunials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus ullamcorper dui eu venenatis. Phasellus nec nunc vel ex euismod sodales in vel augue.</h3>
-                    <h2 class="testemunials-name">MARIENE STRAWBERRY</h2>
-                    <p class="testemunials-course">Aluna de Concurso Público</p>
-                </div>
- -->
-
             </div>
         </section>
 
@@ -483,14 +477,14 @@
                             <div class="footer-contatos">
                                 <p class="footer-text">contato@seletospreparatorio.com.br</p>
                             
-                                <div class="whatsapp-container">
+                                <div class="whatsapp-container blink">
                                     <a href="https://api.whatsapp.com/send?phone=5511986752090"><i class="fab fa-2x fa-whatsapp"></i>
                                     <div class="whatsapp-container-text">
                                         <p class="footer-text-contatos">34 99999 9999<br>Prof. Nalva Carrijo</p></a>
                                     </div>
                                 </div>
 
-                                <div class="whatsapp-container">
+                                <div class="whatsapp-container blink">
                                     <a href="https://api.whatsapp.com/send?phone=5511986752090"><i class="fab fa-2x fa-whatsapp"></i>
                                     <div class="whatsapp-container-text">
                                         <p class="footer-text-contatos">34 99999 9999<br>Prof. Roberto Borges</p></a>
@@ -509,8 +503,8 @@
         </div>
     </div>
     </footer>
-    <div class="btn-top">
-        <a href="#top"><i class="fas fa-angle-up fa-2x"></i></a>
+    <div class="btn-top" id="backToTop">
+        <a class="smooth-scroll" href="#top"><i class="fas fa-2x fa-arrow-circle-up"></i></a>
     </div>
     <script src="./assets/js/vendors/glide.min.js"></script>
     <script src="./assets/js/script.js"></script>

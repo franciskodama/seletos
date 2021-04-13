@@ -1,28 +1,21 @@
-.menu-hamburguer-bar {
-  position: fixed;
-  width: 100%;
-  top: 1em;
-  left: 73%;
-}
-
 nav {
-  background-color: var(--main-color-super-light);
+  background-color: var(--main-color-dark);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: fixed;
   width: 100%;
-  height: 100vh;
-  top: 0;
+  height: 45vh;
+  top: 5.5em;
   bottom: 0;
   right: 0;
   left: 100%;
-  z-index: 99;
+  z-index: 999;
 }
 
 .nav-list {
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-top: 5rem;
+  padding: 4em 2em;
   list-style: none;
   width: 100%;
   height: 80%;
@@ -32,31 +25,32 @@ nav {
   text-decoration: none;
 }
 
-.close-nav,
-.open-nav {
+.open-nav,
+.close-nav {
   border: 0;
   background: 0;
   cursor: pointer;
-  position: absolute;
 }
 
 .close-nav {
-  font-size: 3rem;
+  position: absolute;
   color: var(--main-color-dark);
-  padding: 1rem 2rem;
+  padding: 17rem 2rem;
   transform: translateX(0);
   transition: transform 250ms;
 }
 
 .open-nav {
-  font-size: 2.5rem;
   color: var(--main-color-dark);
-  padding: 0 2rem;
-  margin-left: auto;
+  padding-right: 1em;
 }
 
 .navigation-open {
   transform: translateX(-100%);
+}
+
+.button-hamburguer-hidden {
+  display: none;
 }
 
 /* ====================================
@@ -67,15 +61,68 @@ nav {
 }
 
 @media only screen and (min-width: 48em) {
-  .menu-hamburguer-bar {
-    left: 85%;
+  .open-nav,
+  .close-nav {
+    display: none;
   }
-}
+
+  /* .section-header {
+    padding: 0 10em;
+  } */
+
+  nav {
+    background-color: transparent;
+    box-shadow: none;
+    height: 6em;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: flex-end;
+    height: auto;
+    padding: 0;
+    padding-right: 2em;
+  }
+/* 
+  nav li {
+    display: inline-flex;
+  }
+
+  .nav-item {
+    position: relative;
+    padding: 1rem 0 0.5rem;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%) scaleX(0);
+      transform-origin: 50% 50%;
+      width: 100%;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.8);
+      transition: transform 250ms;
+    }
+
+    &:hover {
+      &::after {
+        transform: translateX(-50%) scaleX(1);
+      }
+    }
+  }
+} */
 
 @media only screen and (min-width: 62em) {
-  .nav-list {
-    flex-direction: row;
-  }
 }
 
 @media only screen and (min-width: 75em) {

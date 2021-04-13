@@ -38,6 +38,7 @@ Fonts:
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -51,12 +52,17 @@ body {
   --second-color-dark: #91770a;
   --second-color-light: #debe3c;
   --third-color-light: #59657e;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 100%;
   background-color: white;
   color: var(--main-color-darkest);
   line-height: 1.6;
 }
+
+/* a,
+i {
+  cursor: url("https://static.cargo.site/images/up.png"), auto !important;
+} */
 
 img {
   max-width: 100%;
@@ -101,8 +107,7 @@ img {
 
 @media only screen and (min-width: 75em) {
   .r {
-    padding: 8em;
-    max-width: 90em;
+    max-width: 82em;
   }
 }
 

@@ -11,6 +11,128 @@
   padding-bottom: 1.5em;
 }
 
+
+/* .hero-main-text {
+position: relative;
+display: block;
+transform: translateY(10rem);
+animation: up 500ms linear forwards;
+}
+
+.hero-main-text-container {
+	font-size: 0;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 0.4rem;
+} */
+
+
+/*  ---- FLYING OBJECT ---- */
+
+.flier-equal,
+.flier-plus {
+	pointer-events: none;
+}
+
+.flier-equal > * {
+  animation: fly-1 30s linear infinite;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	/* z-index: 50; */
+  color: var(--main-color-dark);
+  opacity: 0.2;
+}
+
+
+.flier-plus > * {
+  animation: fly-2 20s linear infinite;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 5s;
+	/* z-index: 50; */
+  color: var(--main-color-dark);
+  opacity: 0.2;
+}
+
+@keyframes fly-1 {
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-100%) translateY(200vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+
+
+@keyframes fly-2 {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-150%) translateY(150vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(150vw) translateY(-150%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+
+
+
 /* ====================================
         MEDIA QUERY
 ======================================= */

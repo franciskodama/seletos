@@ -1,25 +1,29 @@
-.section-testemunials {
+.section-testimonials {
   margin: 0 auto;
   padding: 4em 1em 4em 1em;
   max-width: 100%;
 }
 
-.testemunials-container {
+.testimonials-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.testemunials-img {
-  border: 1px solid rgb(219, 218, 218);
+.testimonials-img {
+  border: 0.5rem solid #3a3eb4;
   border-radius: 50%;
   width: 8em;
   margin-bottom: 3em;
 }
 
-.testemunials-text {
+.testimonials-text {
   margin-bottom: 2em;
   max-width: 85%;
+}
+
+.testimonials-name {
+  margin-bottom: 0;
 }
 
 /* ====================================
@@ -30,7 +34,7 @@
 }
 
 @media only screen and (min-width: 48em) {
-  .testemunials-text {
+  .testimonials-text {
     max-width: 80%;
   }
 }
@@ -39,7 +43,7 @@
 }
 
 @media only screen and (min-width: 75em) {
-  .testemunials-text {
-    max-width: 70%;
+  .testimonials-text {
+    max-width: 60%;
   }
 }

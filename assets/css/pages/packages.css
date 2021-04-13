@@ -8,7 +8,6 @@
   width: 100%;
   max-width: 380px;
   margin: 0 auto;
-
   margin-top: 3em;
   border: 1px solid rgb(219, 218, 218);
   border-radius: 0.3em;
@@ -76,8 +75,15 @@
 }
 
 @media only screen and (min-width: 1080px) {
+  /* .carousel-packages {
+    max-width: 70em;
+  } */
   .packages-card {
     max-width: auto;
+  }
+
+  .packages-inner-container {
+    padding: 0 2em;
   }
 }
 

@@ -1,3 +1,19 @@
 .center {
   text-align: center;
 }
+
+.blink {
+  animation: 1s infinite blink;
+  display: inline-block;
+}
+
+@keyframes blink {
+  0%,
+  15% {
+    opacity: 0;
+  }
+  16%,
+  100% {
+    opacity: 1;
+  }
+}

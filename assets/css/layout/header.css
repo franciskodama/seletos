@@ -1,19 +1,18 @@
-header {
-  margin: 0 auto;
+.section-header {
   display: flex;
-  flex-direction: row;
-  padding: 1em;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.5em;
   background-color: white;
   position: fixed;
+  top: 0;
+  right: 0;
   width: 100%;
 }
 
-.section-header {
-  border: 1px solid red;
-}
-
-header img {
+.section-header img {
   width: 4em;
+  z-index: 5;
 }
 
 /* ====================================

@@ -14,6 +14,19 @@ h3,
   font-weight: 700;
 }
 
+.nav-item {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.open-nav i {
+  color: var(--main-color-dark);
+}
+
+.close-nav i {
+  color: white;
+}
+
 h2 {
   line-height: 3.2rem;
   margin-bottom: 1em;
@@ -63,7 +76,7 @@ h3,
 }
 
 .section-mission h1 {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .package-text-container li,
@@ -89,34 +102,33 @@ h3,
   color: white;
 }
 
-.testemunials-text {
+.testimonials-text {
   font-size: 1.1rem;
   font-weight: 400;
 }
 
-.testemunials-text,
-.testemunials-course {
+.testimonials-text,
+.testimonials-course {
   font-family: var(--sencond-font);
 }
 
-.testemunials-course {
+.testimonials-course {
   font-weight: 300;
 }
 
-.testemunials-text,
-.testemunials-name,
-.testemunials-course {
+.testimonials-text,
+.testimonials-name,
+.testimonials-course {
   color: white;
 }
 
-.testemunials-course {
+.testimonials-course {
   font-size: 0.8rem;
 }
 
-.testemunials-name {
+.testimonials-name {
   color: var(--second-color-light);
   font-size: 1.7rem;
-  line-height: 2rem;
 }
 
 label {
@@ -129,7 +141,7 @@ label {
   font-size: 0.7rem;
   font-weight: 300;
   color: grey;
-  font-family: var(--sencond-font);
+  font-family: "Roboto", Arial, sans-serif;
   text-align: left;
 }
 
@@ -176,6 +188,12 @@ i {
   h2 {
     font-size: 3em;
   }
+
+  .nav-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--main-color-darkest);
+  }
 }
 
 @media only screen and (min-width: 62em) {
@@ -183,7 +201,7 @@ i {
 
 @media only screen and (min-width: 75em) {
   .section-mission h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     line-height: 1.5;
   }
 }

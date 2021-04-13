@@ -7,51 +7,104 @@
   text-decoration: none;
   background-color: var(--main-color-dark);
   color: white;
-  border: none;
-  border-radius: 0.3em;
+  border: 1px solid var(--main-color-dark);
+  border-radius: 0.5em;
   padding: 1.1em 2.2em;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-.btn-carousel-right,
-.btn-carousel-left {
-  background-color: var(--main-color-dark);
-  padding: 1em 0.8em;
+.button:hover,
+.button:focus {
+  box-shadow: inset 6.5em 0 0 0 white;
+  font-weight: 700;
+  color: var(--main-color-dark);
+  background-color: white;
+  border: 1px solid var(--main-color-dark);
+}
+
+/* ----- HERO ----- */
+
+.hero-button:hover,
+.hero-button:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--main-color-super-light);
+  background-color: var(--main-color-super-light);
+}
+
+/* ----- TESTIMONIALS, PACKAGES, TOP ----- */
+
+.btn-top {
+  display: inline-block;
+  position: fixed;
+  bottom: 1em;
+  right: 0;
+  visibility: hidden;
+}
+
+.btn-carousel-right-packages,
+.btn-carousel-left-packages,
+.btn-carousel-right-testimonials,
+.btn-carousel-left-testimonials {
+  background-color: transparent;
   border: none;
-  border-radius: 3px;
   position: absolute;
   bottom: 50%;
-  border: 1px solid gray;
 }
 
-.btn-carousel-right {
-  right: -1em;
+.btn-carousel-right-packages,
+.btn-carousel-right-testimonials {
+  right: -2em;
 }
 
-.btn-carousel-left {
-  left: -1em;
+.btn-carousel-left-packages,
+.btn-carousel-left-testimonials {
+  left: -2em;
 }
+
+.btn-top i,
+.btn-carousel-right-packages i,
+.btn-carousel-left-packages i,
+.btn-carousel-right-testimonials i,
+.btn-carousel-left-testimonials i {
+  color: var(--main-color-super-light);
+  padding: 1em;
+  transition: all 0.3s ease;
+}
+
+.btn-top i:hover,
+.btn-carousel-right-testimonials i:hover,
+.btn-carousel-left-testimonials i:hover {
+  color: white;
+}
+
+.btn-top i:hover,
+.btn-carousel-right-packages i:hover,
+.btn-carousel-left-packages i:hover {
+  color: var(--main-color-darkest);
+}
+
+.btn-top i:hover {
+  transform: translateY(-1em);
+}
+
+.btn-carousel-right-packages i:hover,
+.btn-carousel-right-testimonials i:hover {
+  transform: translateX(0.5em);
+}
+.btn-carousel-left-testimonials i:hover,
+.btn-carousel-left-testimonials i:hover {
+  transform: translateX(-0.5em);
+}
+
+/* ----- CONTACT ----- */
 
 .button-contact {
   width: 8em;
 }
 
-.btn-top {
-  background-color: var(--main-color-dark);
-  display: inline-block;
-  position: fixed;
-  bottom: 5rem;
-  right: 1rem;
-  padding: 0.5em 1em;
-  border-radius: 3px;
-  border: 1px solid gray;
-}
-
-.btn-top i,
-.btn-carousel-right i,
-.btn-carousel-left i {
-  color: white;
-}
+/* ====================================
+        MEDIA QUERY
+======================================= */
 
 @media only screen and (min-width: 768px) {
   .btn-carousel-right {
