@@ -2,10 +2,20 @@
   background-color: var(--main-color-super-light);
 }
 
-.section-mission h1 {
+blockquote {
   max-width: 80%;
+  text-align: center;
   margin: 0 auto;
 }
+
+/* blockquote::before {
+  content: open-quote;
+  font-size: 2rem;
+}
+
+blockquote::after {
+  content: close-quote;
+} */
 
 /* ====================================
         MEDIA QUERY

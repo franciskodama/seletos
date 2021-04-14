@@ -1,7 +1,8 @@
 h1,
 h2,
 h3,
-.nav-item {
+.nav-item,
+blockquote {
   font-family: var(--main-font);
 }
 
@@ -10,12 +11,13 @@ h2,
 h3,
 .close-nav,
 .open-nav,
-.nav-item {
+.nav-item,
+blockquote {
   font-weight: 700;
 }
 
 .nav-item {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   color: white;
 }
 
@@ -32,7 +34,8 @@ h2 {
   margin-bottom: 1em;
 }
 
-h1 {
+h1,
+blockquote {
   font-size: 1.8rem;
   line-height: 1.3em;
 }
