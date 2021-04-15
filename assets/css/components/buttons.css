@@ -61,7 +61,6 @@
   left: -2em;
 }
 
-.btn-top i,
 .btn-carousel-right-packages i,
 .btn-carousel-left-packages i,
 .btn-carousel-right-testimonials i,
@@ -71,10 +70,15 @@
   transition: all 0.3s ease;
 }
 
-.btn-top i:hover,
-.btn-carousel-right-testimonials i:hover,
-.btn-carousel-left-testimonials i:hover {
-  color: white;
+.btn-top i {
+  color: var(--second-color-light);
+  padding: 1em;
+  transition: all 0.3s ease;
+}
+
+.btn-top i:hover {
+  transform: translateY(-1em);
+  color: var(--main-color-super-light);
 }
 
 .btn-carousel-right-packages:focus,
@@ -84,22 +88,23 @@
   outline: none;
 }
 
-.btn-top i:hover,
-.btn-carousel-right-packages i:hover,
-.btn-carousel-left-packages i:hover {
-  color: var(--main-color-darkest);
+.btn-carousel-left-testimonials i:hover {
+  transform: translateX(-0.5em);
+  color: white;
 }
 
-.btn-top i:hover {
-  transform: translateY(-1em);
-}
-
-.btn-carousel-right-packages i:hover,
 .btn-carousel-right-testimonials i:hover {
   transform: translateX(0.5em);
+  color: white;
 }
-.btn-carousel-left-testimonials i:hover,
-.btn-carousel-left-testimonials i:hover {
+
+.btn-carousel-right-packages i:hover {
+  color: var(--main-color-darkest);
+  transform: translateX(0.5em);
+}
+
+.btn-carousel-left-packages i:hover {
+  color: var(--main-color-darkest);
   transform: translateX(-0.5em);
 }
 

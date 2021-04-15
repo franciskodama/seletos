@@ -2,38 +2,34 @@ footer {
   background-color: var(--main-color-darkest);
 }
 
-.footer-container {
-  padding: 3em 1.3em 3em 1.3em;
+.section-footer {
+  padding-top: 5em;
+  padding-bottom: 4em;
 }
 
-.footer-logo {
+.footer-logo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 7em;
 }
 
-.footer-logo p {
+/* .footer-logo-container p {
   margin-top: 1em;
   line-height: 1.2em;
   text-align: center;
-  width: 7em;
-}
+} */
 
 .footer-title {
   margin-bottom: 1em;
 }
 
-.footer-desktop-left img {
-  width: 7em;
-}
-
-.icons-socialmedia {
+.icons-social {
   display: flex;
 }
 
-.footer-logo,
-.icons-socialmedia,
+.footer-logo-container,
+.icons-social,
 .footer-text {
   margin-bottom: 3em;
 }
@@ -63,7 +59,7 @@ footer {
   margin-bottom: 1em;
 }
 
-.footer-below {
+.footer-legaltext {
   padding: 0.8em 2em;
   background-color: var(--main-color-darkest);
   display: flex;
@@ -72,7 +68,7 @@ footer {
   border-top: 1px solid #878b98;
 }
 
-.footer-below h5 {
+.footer-legaltext h5 {
   margin-bottom: 1em;
 }
 
@@ -81,21 +77,42 @@ footer {
 ======================================= */
 
 @media only screen and (min-width: 20em) {
+  .footer-container {
+    padding: 0 3em;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+  .footer-container {
+    padding: 0 8em;
+  }
 }
 
 @media only screen and (min-width: 48em) {
-  .section-footer {
-    margin: 0 auto;
-    width: 80%;
+  .footer-container {
+    padding: 0;
   }
 
   .footer-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
   }
 
-  .footer-below {
+  .footer-logo-container {
+    width: 12em;
+  }
+
+  .footer-logo-container,
+  .footer-social-container,
+  .footer-local-container,
+  .footer-time-container,
+  .footer-contatos-container {
+    padding-left: 5em;
+    padding-bottom: 1em;
+  }
+
+  .footer-legaltext {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -106,11 +123,4 @@ footer {
 }
 
 @media only screen and (min-width: 75em) {
-  .footer-desktop-right {
-    flex-direction: row;
-  }
-
-  .section-footer {
-    width: 90%;
-  }
 }

@@ -2,20 +2,21 @@
   background-color: var(--main-color-super-light);
 }
 
-blockquote {
+.section-mission blockquote {
   max-width: 80%;
   text-align: center;
   margin: 0 auto;
 }
 
-/* blockquote::before {
+.section-mission blockquote::before {
   content: open-quote;
   font-size: 2rem;
 }
 
-blockquote::after {
+.section-mission blockquote::after {
   content: close-quote;
-} */
+  font-size: 2rem;
+}
 
 /* ====================================
         MEDIA QUERY
@@ -25,13 +26,13 @@ blockquote::after {
 }
 
 @media only screen and (min-width: 48em) {
-  .section-mission h1 {
+  .section-mission blockquote {
     max-width: 78%;
   }
 }
 
 @media only screen and (min-width: 62em) {
-  .section-mission h1 {
+  .section-mission blockquote {
     max-width: 65%;
   }
 }

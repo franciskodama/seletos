@@ -1,4 +1,4 @@
-/*
+/* 
 Color Scheme:
     Dark Blue: #2D3092
     Light Blue: #5E64FF
@@ -12,27 +12,7 @@ Fonts:
         font-family: 'Sen', Arial, sans-serif;
     
     Paragraph:
-        font-family: 'Roboto', Arial, sans-serif;
-
-/* ====================================
-        MEDIA QUERY
-======================================= */
-
-/*
-
-@media only screen and (min-width: 20em) {
-}
-
-@media only screen and (min-width: 48em) {
-}
-
-@media only screen and (min-width: 62em) {
-}
-
-@media only screen and (min-width: 75em) {
-}
-
-*/
+        font-family: 'Roboto', Arial, sans-serif; */
 
 * {
   box-sizing: border-box;
@@ -59,20 +39,9 @@ body {
   line-height: 1.6;
 }
 
-/* a,
-i {
-  cursor: url("https://static.cargo.site/images/up.png"), auto !important;
-} */
-
 img {
   max-width: 100%;
   height: auto;
-}
-
-.section {
-  margin: 0 auto;
-  padding-top: 3em;
-  padding-bottom: 4em;
 }
 
 .r {
@@ -81,9 +50,14 @@ img {
   padding: 0 1em;
 }
 
+.section {
+  margin: 0 auto;
+  padding: 6.5em 0;
+}
+
 .dark-section {
   background-color: var(--main-color-dark);
-  padding: 3.5em 0;
+  /* padding: 3.5em 0; */
 }
 
 /* ====================================

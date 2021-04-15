@@ -17,7 +17,7 @@ blockquote {
 }
 
 .nav-item {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: white;
   text-decoration: none;
@@ -54,8 +54,12 @@ h2,
 
 h3 {
   font-size: 1em;
-  color: var(--main-color-light);
+  color: var(--main-color-dark);
   margin-bottom: 1.2em;
+}
+
+.dark-section h3 {
+  color: var(--main-color-light);
 }
 
 .section-hero p,
@@ -165,10 +169,10 @@ i {
   color: #878b98;
 }
 
-.footer-below h5,
-.footer-below a,
-.footer-below a:link,
-.footer-below a:visited {
+.footer-legaltext h5,
+.footer-legaltext a,
+.footer-legaltext a:link,
+.footer-legaltext a:visited {
   color: white;
   font-weight: 300;
   font-size: 0.6rem;

@@ -17,3 +17,8 @@
     opacity: 1;
   }
 }
+
+/* a,
+i {
+  cursor: url("https://static.cargo.site/images/up.png"), auto !important;
+} */
