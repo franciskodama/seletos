@@ -77,6 +77,13 @@
   color: white;
 }
 
+.btn-carousel-right-packages:focus,
+.btn-carousel-left-packages:focus,
+.btn-carousel-right-testimonials:focus,
+.btn-carousel-left-testimonials:focus {
+  outline: none;
+}
+
 .btn-top i:hover,
 .btn-carousel-right-packages i:hover,
 .btn-carousel-left-packages i:hover {
