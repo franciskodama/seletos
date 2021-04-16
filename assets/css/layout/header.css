@@ -56,7 +56,7 @@ nav {
 
 .close-nav {
   position: absolute;
-  top: 21em;
+  top: 34em;
   left: 2.5em;
   color: var(--main-color-dark);
   transform: translateX(0);

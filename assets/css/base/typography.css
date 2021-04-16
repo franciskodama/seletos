@@ -200,13 +200,16 @@ i {
   }
 
   .nav-item {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: var(--main-color-darkest);
   }
 }
 
 @media only screen and (min-width: 62em) {
+  .nav-item {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 75em) {

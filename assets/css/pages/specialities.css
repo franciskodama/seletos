@@ -17,6 +17,10 @@
   background-color: var(--main-color-dark);
   color: white;
 }
+/* 
+.svg {
+  fill: red;
+} */
 
 .specialities-card img {
   width: 3rem;
