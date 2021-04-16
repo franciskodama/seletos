@@ -89,13 +89,11 @@ h3,
   font-size: 1.8rem;
 }
 
-.package-text-container li,
+.packages-card-classes li,
 .packages-card-title {
   text-transform: uppercase;
-}
-
-.packages-card-title {
   line-height: 1.1;
+  text-align: left;
 }
 
 .price-light {

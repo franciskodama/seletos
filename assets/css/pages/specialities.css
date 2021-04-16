@@ -7,7 +7,7 @@
 .specialities-card {
   margin-top: 3em;
   border: 1px solid rgb(219, 218, 218);
-  border-radius: 0.3em;
+  border-radius: 0.5em;
   padding: 3em 1.5em;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -17,13 +17,13 @@
   background-color: var(--main-color-dark);
   color: white;
 }
-/* 
-.svg {
-  fill: red;
-} */
 
-.specialities-card img {
-  width: 3rem;
+.specialities-card:hover i {
+  color: white;
+}
+
+.specialities-card span i {
+  color: var(--main-color-dark);
 }
 
 .card-title {

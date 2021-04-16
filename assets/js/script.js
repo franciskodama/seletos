@@ -38,6 +38,7 @@ new Glide('.carousel-packages', {
     768: {
       perView: 1
     }
+    
   }
 
 }).mount()
