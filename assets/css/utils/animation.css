@@ -1,0 +1,243 @@
+:root {
+  --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 1s;
+}
+
+/* ----- KEYFRAMES ----- */
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25%);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-25%);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideInleft {
+  0% {
+    opacity: 0;
+    transform: translateX(25%);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-25%);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes zoomReverseIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.25);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes flipInY {
+  0% {
+    opacity: 0;
+    transform: perspective(90vw) rotateY(67.5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ----- ANIMATIONS ----- */
+
+[data-animation] {
+  opacity: 0;
+  animation-timing-function: var(--animation-timing-function);
+  animation-fill-mode: both;
+  animation-duration: var(--animation-duration);
+  will-change: transform, opacity;
+}
+
+/* Disable animation of the childs */
+/* Disable self animation */
+
+.animations-disabled {
+  &,
+  [data-animation] {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
+
+/* ----- SLIDE ANIMATIONS -----  */
+
+.slideInUp {
+  animation-name: slideInUp;
+}
+.slideInDown {
+  animation-name: slideInDown;
+}
+.slideInLeft {
+  animation-name: slideInleft;
+}
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+/* ----- FADE ANIMATIONS ----- */
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+/* ----- ZOOM ANIMATIONS ----- */
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+.zoomReverseIn {
+  animation-name: zoomReverseIn;
+}
+
+/* ----- FLIP ANIMATIONS ----- */
+
+.flipInY {
+  animation-name: flipInY;
+}
+.flipOutY {
+  animation-name: flipInY;
+  animation-direction: reverse;
+}
+
+/* -------------------- 
+    DEMO STYLES 
+-------------------- */
+
+/* 
+* {
+  box-sizing: border-box;
+  line-height: calc(1em + 0.25rem);
+}
+
+html {
+  background: #000;
+  font: 18px/1.5 "Poppins", sans-serif;
+  letter-spacing: -0.1em;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: hsl(210, 20%, 60%);
+  font-weight: 200;
+}
+
+h1 {
+  width: 100%;
+  font-weight: 200;
+  text-align: center;
+  margin: 0 0 4rem;
+  font-size: 3rem;
+}
+
+b {
+  font-weight: 600;
+}
+
+header,
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 3rem 1rem;
+}
+
+header {
+  background: radial-gradient(
+    circle at top right,
+    hsl(340, 80%, 50%),
+    hsl(260, 80%, 50%)
+  );
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+header .title {
+  font-size: 5rem;
+}
+
+header .subtitle {
+  font-size: 4rem;
+}
+
+section {
+  background: #fff;
+  &:nth-child(odd) {
+    background: hsl(210, 25%, 97.5%);
+  }
+}
+
+.box {
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem;
+  background: radial-gradient(
+    circle at top right,
+    hsl(340, 80%, 50%),
+    hsl(260, 80%, 50%)
+  );
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.3) inset, 0 3px 9px rgba(0, 0, 0, 0.3);
+} */

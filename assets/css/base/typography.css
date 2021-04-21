@@ -11,9 +11,31 @@ h2,
 h3,
 .close-nav,
 .open-nav,
-.nav-item,
-blockquote {
-  font-weight: 700;
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1.8rem;
+  line-height: 1.3em;
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 3.2rem;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1em;
+  color: var(--secondery-color);
+  margin-bottom: 1.2em;
+}
+
+.dark-section h3 {
+  color: var(--quaternary-color);
 }
 
 .nav-item {
@@ -25,25 +47,13 @@ blockquote {
 }
 
 .open-nav i {
-  color: var(--main-color-dark);
+  color: var(--secondery-color);
 }
 
 .close-nav i {
   color: white;
 }
 
-h2 {
-  line-height: 3.2rem;
-  margin-bottom: 1em;
-}
-
-h1,
-blockquote {
-  font-size: 1.8rem;
-  line-height: 1.3em;
-}
-
-h2,
 .card-title {
   font-size: 1.5em;
 }
@@ -52,30 +62,20 @@ h2,
   line-height: 1.1em;
 }
 
-h3 {
-  font-size: 1em;
-  color: var(--main-color-dark);
-  margin-bottom: 1.2em;
-}
-
-.dark-section h3 {
-  color: var(--main-color-light);
-}
-
 .section-hero p,
 button {
   font-family: var(--sencond-font);
 }
 
 .section-hero p {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--main-color-dark);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: white;
 }
 
 .text-light {
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 300;
+  font-size: 1.2rem;
   color: var(--third-color-light);
 }
 
@@ -89,6 +89,19 @@ h3,
   font-size: 1.8rem;
 }
 
+.section-mission blockquote {
+  font-family: var(--sencond-font);
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 1.3em;
+  color: white;
+  font-style: italic;
+}
+
+.section-mission cite {
+  font-size: 1.1rem;
+}
+
 .packages-card-classes li,
 .packages-card-title {
   text-transform: uppercase;
@@ -97,7 +110,7 @@ h3,
 }
 
 .price-light {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 
@@ -110,9 +123,15 @@ h3,
   color: white;
 }
 
+.professors-contend .professors-card-title {
+  font-size: 1.8em;
+  line-height: 1.1;
+}
+
 .testimonials-text {
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .testimonials-text,
@@ -124,25 +143,25 @@ h3,
   font-weight: 300;
 }
 
-.testimonials-text,
-.testimonials-name,
-.testimonials-course {
-  color: white;
-}
-
 .testimonials-course {
   font-size: 0.8rem;
 }
 
 .testimonials-name {
-  color: var(--second-color-light);
-  font-size: 1.7rem;
+  color: var(--quaternary-color);
+  font-size: 1.3rem;
+}
+
+.testimonials-container .testimonials-text,
+.testimonials-course {
+  color: white;
+  text-transform: none;
 }
 
 label {
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 300;
-  color: var(--main-color-darkest);
+  color: var(--primary-color);
 }
 
 ::placeholder {
@@ -154,7 +173,7 @@ label {
 }
 
 .footer-title {
-  color: white;
+  color: rgb(201, 201, 201);
   font-size: 1rem;
   font-family: var(--main-font);
 }
@@ -162,18 +181,18 @@ label {
 .footer-text-contatos,
 .footer-text,
 i {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 300;
-  color: #878b98;
+  color: rgb(201, 201, 201);
 }
 
 .footer-legaltext h5,
 .footer-legaltext a,
 .footer-legaltext a:link,
 .footer-legaltext a:visited {
-  color: white;
+  color: rgb(201, 201, 201);
   font-weight: 300;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .whatsapp-container a:link {
@@ -194,13 +213,13 @@ i {
   }
 
   h2 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .nav-item {
     font-size: 0.8rem;
     font-weight: 600;
-    color: var(--main-color-darkest);
+    color: var(--primary-color);
   }
 }
 

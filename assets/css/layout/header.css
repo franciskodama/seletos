@@ -26,7 +26,7 @@
 }
 
 nav {
-  background-color: var(--main-color-dark);
+  background-color: var(--secondery-color);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: fixed;
   width: 100%;
@@ -58,13 +58,13 @@ nav {
   position: absolute;
   top: 34em;
   left: 2.5em;
-  color: var(--main-color-dark);
+  color: var(--secondery-color);
   transform: translateX(0);
   transition: transform 250ms;
 }
 
 .open-nav {
-  color: var(--main-color-dark);
+  color: var(--secondery-color);
   padding-right: 1em;
 }
 
@@ -127,7 +127,7 @@ nav {
     transform: translateX(-50%) scaleX(0);
     transform-origin: 50% 50%;
     transition: transform 250ms;
-    background-color: var(--main-color-darkest);
+    background-color: var(--primary-color);
   }
 
   .nav-item:hover::after {

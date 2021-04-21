@@ -26,7 +26,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 2em 20em;
+  padding: 3em 4em;
   background: rgba(0, 0, 0, 0.8);
 }
 
@@ -44,7 +44,17 @@
   text-decoration: none;
 }
 
-/* a,
-i {
-  cursor: url("https://static.cargo.site/images/up.png"), auto !important;
-} */
+@media only screen and (min-width: 20em) {
+}
+
+@media only screen and (min-width: 48em) {
+  .lightbox {
+    padding: 2em 20em;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+}
+
+@media only screen and (min-width: 75em) {
+}

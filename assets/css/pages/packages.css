@@ -1,9 +1,8 @@
 .packages-card {
-  margin-top: 2em;
   border: 1px solid rgb(219, 218, 218);
   border-radius: 0.5em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 1em;
+  margin: 1em;
 }
 
 .packages-card-img {
@@ -41,7 +40,7 @@
 
 .packages-card-prices {
   grid-area: p;
-  margin: 1em 0;
+  margin: 1em 0 2em 0;
   height: 6em;
 }
 
@@ -53,7 +52,8 @@
 /* ---- END GRID ---- */
 
 .packages-card-classes li {
-  border: 2px solid var(--main-color-darkest);
+  border: 2px solid var(--primary-color);
+  border-radius: 0.3em;
   padding: 0.2em 0.5em;
   margin-bottom: 0.7em;
   width: fit-content;
@@ -71,6 +71,10 @@
   /* .section-packages {
     width: 70%;
   } */
+  .packages-card {
+    max-width: 10em;
+    border: 1px solid red;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -81,11 +85,6 @@
   /* .glides__slides {
     max-width: 10em;
   } */
-
-  .packages-card {
-    max-width: 10em;
-    border: 1px solid red;
-  }
 }
 
 @media only screen and (min-width: 1080px) {

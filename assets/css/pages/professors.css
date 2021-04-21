@@ -75,16 +75,20 @@
 @media only screen and (min-width: 48em) {
   .professors-container {
     flex-direction: row;
-    gap: 4em;
-    max-width: 50em;
+    justify-content: center;
+    gap: 2em;
+    max-width: 90%;
   }
 
   .professors-card {
-    flex: 1 1 40%;
+    flex: 1 1 46%;
   }
 }
 
 @media only screen and (min-width: 62em) {
+  .professors-card {
+    max-width: 40%;
+  }
 }
 
 @media only screen and (min-width: 75em) {

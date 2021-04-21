@@ -1,5 +1,20 @@
 .section-hero {
-  background-color: var(--main-color-super-light);
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 5s infinite alternate;
+}
+
+.section-hero .r {
+  padding: 7rem 0;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 .section-hero p {
@@ -12,51 +27,47 @@
 }
 
 .hero-main-text {
-	position: relative;
-	display: block;
-	transform: translateY(20rem);
-	opacity: 0; 
-	font-size: 0;
-	animation: up 750ms linear forwards;
+  position: relative;
+  display: block;
+  transform: translateY(20rem);
+  opacity: 0;
+  font-size: 0;
+  animation: up 750ms linear forwards;
 }
-	
+
 @keyframes up {
-	0% {
-		transform: translateY(30rem);
-		opacity: 0;
-		font-size: 0;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-		font-size: 3rem;
-	}
-} 
-
-
-
+  0% {
+    transform: translateY(30rem);
+    opacity: 0;
+    font-size: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    font-size: 2rem;
+  }
+}
 
 /*  ---- FLYING OBJECT ---- */
 
 .flier-equal,
 .flier-plus {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 .flier-equal > * {
   animation: fly-1 30s linear infinite;
-	top: 0;
-	left: 0;
-	transform: translateX(-120%) translateY(-120%) rotateZ(0);
-	position: fixed;
-	animation-delay: 1s;
-  color: var(--main-color-dark);
+  top: 0;
+  left: 0;
+  transform: translateX(-120%) translateY(-120%) rotateZ(0);
+  position: fixed;
+  animation-delay: 1s;
+  color: var(--secondery-color);
   opacity: 0.2;
 }
 
-
 .flier-plus > * {
-  color: var(--main-color-dark);
+  color: var(--secondery-color);
   position: fixed;
   left: 0;
   top: 0;
@@ -67,78 +78,82 @@
 }
 
 @keyframes fly-1 {
-	98.001%, 0% {
-        display: block;
-		transform: translateX(-100%) translateY(200vh) rotateZ(0deg)
-	}
+  98.001%,
+  0% {
+    display: block;
+    transform: translateX(-100%) translateY(200vh) rotateZ(0deg);
+  }
 
-	15% {
-		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
-	}
+  15% {
+    transform: translateX(100vw) translateY(-100%) rotateZ(180deg);
+  }
 
-	15.001%, 18% {
-		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
-	}
+  15.001%,
+  18% {
+    transform: translateX(100vw) translateY(-30%) rotateZ(0deg);
+  }
 
-	40% {
-		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
-	}
+  40% {
+    transform: translateX(-200%) translateY(3vh) rotateZ(-180deg);
+  }
 
-	40.001%, 43% {
-		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
-	}
+  40.001%,
+  43% {
+    transform: translateX(-200%) translateY(-100%) rotateZ(-180deg);
+  }
 
-	65% {
-		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
-	}
+  65% {
+    transform: translateX(100vw) translateY(50vh) rotateZ(0deg);
+  }
 
-	65.001%, 68% {
-		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
-	}
+  65.001%,
+  68% {
+    transform: translateX(20vw) translateY(-200%) rotateZ(180deg);
+  }
 
-	95% {
-		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
-	}
+  95% {
+    transform: translateX(10vw) translateY(100vh) rotateZ(0deg);
+  }
 }
-
 
 @keyframes fly-2 {
+  98.001%,
+  0% {
+    display: block;
+    transform: translateX(-150%) translateY(150vh) rotateZ(0deg);
+  }
 
-	98.001%, 0% {
-                display: block;
-		transform: translateX(-150%) translateY(150vh) rotateZ(0deg)
-	}
+  15% {
+    transform: translateX(150vw) translateY(-150%) rotateZ(180deg);
+  }
 
-	15% {
-		transform: translateX(150vw) translateY(-150%) rotateZ(180deg)
-	}
+  15.001%,
+  18% {
+    transform: translateX(100vw) translateY(-30%) rotateZ(0deg);
+  }
 
-	15.001%, 18% {
-		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
-	}
+  40% {
+    transform: translateX(-200%) translateY(3vh) rotateZ(-180deg);
+  }
 
-	40% {
-		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
-	}
+  40.001%,
+  43% {
+    transform: translateX(-200%) translateY(-100%) rotateZ(-180deg);
+  }
 
-	40.001%, 43% {
-		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
-	}
+  65% {
+    transform: translateX(100vw) translateY(50vh) rotateZ(0deg);
+  }
 
-	65% {
-		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
-	}
+  65.001%,
+  68% {
+    transform: translateX(20vw) translateY(-200%) rotateZ(180deg);
+  }
 
-	65.001%, 68% {
-		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
-	}
-
-	95% {
-		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
-	}
+  95% {
+    transform: translateX(10vw) translateY(100vh) rotateZ(0deg);
+  }
 }
-
-
 
 /* ====================================
         MEDIA QUERY
@@ -148,30 +163,33 @@
   .section-hero h1 {
     max-width: 9em;
   }
-
   .r-hero {
     margin: 0 auto;
     max-width: 90%;
   }
 }
 
-@media only screen and (min-width: 33em){
+@media only screen and (min-width: 33em) {
+  @keyframes up {
+    0% {
+      transform: translateY(30rem);
+      opacity: 0;
+      font-size: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      font-size: 3rem;
+    }
+  }
 }
 
 @media only screen and (min-width: 48em) {
-.section-hero {
-	background-image: url(../../img/hero.png);
-	background-repeat: no-repeat;
-	background-size: auto 80%;
-	background-position: right 20% bottom;
-	}
-
-  .section-hero p {
-    margin-top: 8em;
-  }
-
-  .section-hero {
-    background-position: right 10% bottom;
+  .section-hero-bg {
+    background-image: url(../../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: 25em auto;
+    background-position: right 5% bottom;
   }
 
   .section-hero p,
@@ -185,28 +203,35 @@
 }
 
 @media only screen and (min-width: 62em) {
-  .section-hero p {
-    margin-top: 12em;
+  .r-hero {
+    padding: 0 2em;
   }
 
-  .section-hero p,
-  .hero-main-text {
+  .section-hero-bg {
+    background-size: 27em auto;
+    background-position: right 20% bottom;
+  }
+
+  .section-hero p {
     padding-bottom: 2em;
   }
 
+  .hero-main-text {
+    padding-bottom: 1em;
+  }
+
   .r-hero a {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
   }
 }
 
 @media only screen and (min-width: 75em) {
-  .section-hero {
-    background-size: auto 85%;
-    background-position: right 20% bottom;
+  .r-hero {
+    padding: 0 4em;
   }
 
-  @media only screen and (min-width: 85em) {
-    .section-hero {
-      background-position: right 30% bottom;
-    }
+  .section-hero-bg {
+    background-size: 27em auto;
+    background-position: right 30% bottom;
+  }
 }
