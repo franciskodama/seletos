@@ -1,8 +1,14 @@
+.glide__slide{
+  display: flex;
+  justify-content: center;
+}
+
 .packages-card {
   border: 1px solid rgb(219, 218, 218);
   border-radius: 0.5em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 8px 8px;
+  max-width: 400px;
 }
 
 .packages-card-img {
@@ -10,42 +16,36 @@
 }
 
 .packages-inner-container {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto, auto, auto, auto, auto;
-  grid-template-areas:
-    "t"
-    "c"
-    "d"
-    "p"
-    "b";
+  display: flex;
+  flex-direction: column;
   padding: 0 2em;
 }
 
 .packages-card-title {
-  grid-area: t;
   margin: 1em 0;
   font-size: 1.5rem;
+  min-height: 53px;
 }
 
 .packages-card-classes {
-  grid-area: c;
-  height: 10em;
+  min-height: 10em;
+  display: flex;
+  flex-direction: row;
+  align-content: start;
+  flex-wrap: wrap;
+  margin-right: 50%;
 }
 
 .packages-card-description {
-  grid-area: d;
-  height: 7em;
+  min-height: 7em;
 }
 
 .packages-card-prices {
-  grid-area: p;
   margin: 1em 0 2em 0;
   height: 6em;
 }
 
 .packages-button {
-  grid-area: b;
   margin: 0 auto 3em auto;
 }
 
@@ -56,7 +56,8 @@
   border-radius: 0.3em;
   padding: 0.2em 0.5em;
   margin-bottom: 0.7em;
-  width: fit-content;
+  display: block;
+  flex: 0 0 auto;
 }
 
 /* ====================================

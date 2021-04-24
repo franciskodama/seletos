@@ -56,6 +56,7 @@ $gradient-radial: radial-gradient(#2d3092ff, #8a229eff, #bf001cff, #3c91e6ff, #f
   --second-font: "Karla", sans-serif;
 
   --primary-color: #2d3092;
+  --primary-color-rgb: 45,48,146;
   --secondery-color: #8a229e;
   --tertiary-color: #bf001c;
   --quaternary-color: #f7b801;
