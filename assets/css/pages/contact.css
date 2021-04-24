@@ -22,6 +22,11 @@ textarea {
   margin-bottom: 1em;
 }
 
+.thankyou_message{
+  margin-bottom: 1em;
+  color: var(--secondery-color);
+}
+
 /* ====================================
         MEDIA QUERY
 ======================================= */

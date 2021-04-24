@@ -384,7 +384,7 @@
                     <h3 data-animation="slideInDown" data-animation-delay=".75s">Contato</h3>
                     <h2 class="box" data-animation="slideInRight"> Aguardamos sua mensagem</h2>
                     <article class="contact-container">
-                        <form>
+                        <form action="https://script.google.com/macros/s/AKfycbxzzKAP5gaq1EoaKAX1xQ_nKPMHkiAPPPD3-ux5paAXcTtCfvz9/exec" method="POST" class="gform">
                             <div class="form-field">  
                                 <label for="name">Nome:</label>
                                 <input type="text" id="name" name="name" required placeholder="Nome">
@@ -401,6 +401,11 @@
                                 <label for="message">Mensagem:</label>
                                 <textarea id="message" name="message" rows="6" cols="20" placeholder="Como podemos ajudar você?"></textarea>
                             </div>
+
+                            <div style="display:none" class="thankyou_message">
+                                <p><em>Obrigado</em> pela mensagem! Em breve entraremos em contato.</p>
+                            </div>
+                            
                             <input class="button button-contact" type="submit" value="Enviar">
                         </form>
                     </article>
@@ -492,6 +497,7 @@
         <a class="smooth-scroll" href="#top"><i class="fas fa-2x fa-arrow-circle-up"></i></a>
     </div>
     <script src="./assets/js/vendors/glide.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="./assets/js/vendors/form-submission-handler.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
