@@ -2,7 +2,8 @@ h1,
 h2,
 h3,
 .nav-item,
-blockquote {
+blockquote,
+.footer-title {
   font-family: var(--main-font);
 }
 
@@ -19,6 +20,16 @@ h3,
 h1 {
   font-size: 1.8rem;
   line-height: 1.3em;
+}
+
+h1,
+.nav-item,
+.close-nav i,
+.section-hero p,
+.section-mission blockquote,
+.professors-title,
+.testimonials-container .testimonials-text,
+.testimonials-course {
   color: white;
 }
 
@@ -30,8 +41,12 @@ h2 {
 
 h3 {
   font-size: 1em;
-  color: var(--secondery-color);
   margin-bottom: 1.2em;
+}
+
+h3,
+.open-nav i {
+  color: var(--secondery-color);
 }
 
 .dark-section h3 {
@@ -41,17 +56,8 @@ h3 {
 .nav-item {
   font-size: 1.3rem;
   font-weight: 600;
-  color: white;
   text-decoration: none;
   margin-left: 1.5em;
-}
-
-.open-nav i {
-  color: var(--secondery-color);
-}
-
-.close-nav i {
-  color: white;
 }
 
 .card-title {
@@ -62,15 +68,17 @@ h3 {
   line-height: 1.1em;
 }
 
+button,
 .section-hero p,
-button {
+.section-mission blockquote,
+.testimonials-text,
+.testimonials-course {
   font-family: var(--sencond-font);
 }
 
 .section-hero p {
   font-size: 1.3rem;
   font-weight: 400;
-  color: white;
 }
 
 .text-light {
@@ -90,11 +98,9 @@ h3,
 }
 
 .section-mission blockquote {
-  font-family: var(--sencond-font);
   font-size: 1.8rem;
   font-weight: 200;
   line-height: 1.3em;
-  color: white;
   font-style: italic;
 }
 
@@ -119,10 +125,6 @@ h3,
   font-weight: 700;
 }
 
-.professors-title {
-  color: white;
-}
-
 .professors-contend .professors-card-title {
   font-size: 1.8em;
   line-height: 1.1;
@@ -132,11 +134,6 @@ h3,
   font-size: 1.5rem;
   font-weight: 300;
   font-style: italic;
-}
-
-.testimonials-text,
-.testimonials-course {
-  font-family: var(--sencond-font);
 }
 
 .testimonials-course {
@@ -154,19 +151,28 @@ h3,
 
 .testimonials-container .testimonials-text,
 .testimonials-course {
-  color: white;
   text-transform: none;
+}
+
+label,
+::placeholder,
+.footer-text-contatos,
+.footer-text,
+i,
+.footer-legaltext h5,
+.footer-legaltext a,
+.footer-legaltext a:link,
+.footer-legaltext a:visited {
+  font-weight: 300;
 }
 
 label {
   font-size: 1rem;
-  font-weight: 300;
   color: var(--primary-color);
 }
 
 ::placeholder {
-  font-size: 0.7rem;
-  font-weight: 300;
+  font-size: 0.9rem;
   color: grey;
   font-family: "Roboto", Arial, sans-serif;
   text-align: left;
@@ -175,14 +181,12 @@ label {
 .footer-title {
   color: rgb(201, 201, 201);
   font-size: 1rem;
-  font-family: var(--main-font);
 }
 
 .footer-text-contatos,
 .footer-text,
 i {
   font-size: 0.9rem;
-  font-weight: 300;
   color: rgb(201, 201, 201);
 }
 
@@ -191,7 +195,6 @@ i {
 .footer-legaltext a:link,
 .footer-legaltext a:visited {
   color: rgb(201, 201, 201);
-  font-weight: 300;
   font-size: 0.8rem;
 }
 
@@ -218,7 +221,6 @@ i {
 
   .nav-item {
     font-size: 0.8rem;
-    font-weight: 600;
     color: var(--primary-color);
   }
 }

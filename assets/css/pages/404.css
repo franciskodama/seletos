@@ -1,0 +1,20 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--primary-color);
+}
+
+.error,
+.error-text,
+.error-text-motivation,
+.button-error {
+  color: var(--quaternary-color);
+}
+
+.error {
+  font-size: 16rem;
+}
