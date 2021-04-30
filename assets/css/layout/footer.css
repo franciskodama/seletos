@@ -53,6 +53,10 @@ footer {
   padding-bottom: 0.4em;
 }
 
+.footer-contatos a {
+  text-decoration: none;
+}
+
 .footer-contatos p:first-of-type {
   margin-bottom: 1em;
 }

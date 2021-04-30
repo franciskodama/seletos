@@ -186,7 +186,7 @@
 
 @media only screen and (min-width: 48em) {
   .section-hero-bg {
-    background-image: url(../../img/hero.png);
+    background-image: url(../../img/hero-looking-left.png);
     background-repeat: no-repeat;
     background-size: 25em auto;
     background-position: right 5% bottom;

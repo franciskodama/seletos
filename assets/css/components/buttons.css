@@ -9,13 +9,15 @@
   color: white;
   border: 1px solid var(--primary-color);
   border-radius: 0.5em;
-  padding: 0.9em 2.2em;
+  padding: 0.7em 1.5em;
   cursor: pointer;
   transition: all 0.5s ease;
+  text-align: center;
 }
 
 .button:hover,
-.button:focus {
+.button:focus,
+.button:active {
   box-shadow: inset 6.5em 0 0 0 white;
   color: var(--secondery-color);
   background-color: white;
@@ -33,7 +35,8 @@
 }
 
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.hero-button:active {
   box-shadow: inset 6.5em 0 0 0 white;
   color: var(--secondery-color);
   background-color: white;
@@ -55,7 +58,9 @@
   transition: all 0.3s ease;
 }
 
-.btn-top i:hover {
+.btn-top i:hover,
+.btn-top i:focus,
+.btn-top i:active {
   transform: translateY(-1em);
   color: var(--secondery-color);
 }
@@ -63,7 +68,7 @@
 /* ----- TESTIMONIALS, PACKAGES ----- */
 
 .btn-carousel-packages,
-.btn-carousel-testimonials{
+.btn-carousel-testimonials {
   background: transparent;
   border: none;
   position: absolute;
@@ -73,11 +78,11 @@
   transition: all 0.3s ease;
 }
 
-.btn-carousel-right-packages{
+.btn-carousel-right-packages {
   right: 6px;
 }
 
-.btn-carousel-left-packages{
+.btn-carousel-left-packages {
   left: 6px;
 }
 
@@ -107,15 +112,15 @@
 .btn-carousel-packages:active,
 .btn-carousel-testimonials:hover,
 .btn-carousel-testimonials:focus,
-.btn-carousel-testimonials:active{
+.btn-carousel-testimonials:active {
   cursor: pointer;
   outline: none;
 }
 
 .btn-carousel-packages:hover,
 .btn-carousel-packages:focus,
-.btn-carousel-packages:active{
-  background: rgba(var(--primary-color-rgb),0.3);
+.btn-carousel-packages:active {
+  background: rgba(var(--primary-color-rgb), 0.3);
 }
 
 .btn-carousel-right-packages:hover,
@@ -123,7 +128,7 @@
 .btn-carousel-right-packages:active,
 .btn-carousel-right-testimonials:hover,
 .btn-carousel-right-testimonials:focus,
-.btn-carousel-right-testimonials:active{
+.btn-carousel-right-testimonials:active {
   transform: translateX(0.5em);
 }
 
@@ -132,14 +137,14 @@
 .btn-carousel-left-packages:active,
 .btn-carousel-left-testimonials:hover,
 .btn-carousel-left-testimonials:focus,
-.btn-carousel-left-testimonials:active{
+.btn-carousel-left-testimonials:active {
   transform: translateX(-0.5em);
 }
 
 .btn-carousel-packages:hover i,
 .btn-carousel-packages:focus i,
 .btn-carousel-packages:active i {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* ----- CONTACT ----- */

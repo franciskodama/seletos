@@ -5,7 +5,7 @@
   top: 0;
   right: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 10;
 }
 
 .header-container {
@@ -27,16 +27,16 @@
 }
 
 nav {
-  background-color: var(--secondery-color);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 15px -10px rgba(0, 0, 0, 0.2),
+    0 6px 20px -10px rgba(0, 0, 0, 1);
   position: fixed;
   width: 100%;
-  height: 60vh;
-  top: 6em;
+  height: 50vh;
+  top: 103px;
   bottom: 0;
   right: 0;
   left: 100%;
-  z-index: 999;
 }
 
 .nav-list {
@@ -45,8 +45,34 @@ nav {
   justify-content: space-evenly;
   list-style: none;
   width: 100%;
-  height: 85%;
+  height: 100%;
 }
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+  color: var(--quaternary-color);
+}
+
+/* .nav-item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: 50% 50%;
+  transition: transform 250ms;
+  background-color: var(--primary-color);
+}
+
+.nav-item:hover::after,
+.nav-item:focus::after,
+.nav-item:active::after {
+  transform: translateX(-50%) scaleX(1);
+} */
 
 .open-nav,
 .close-nav {
@@ -57,11 +83,9 @@ nav {
 
 .close-nav {
   position: absolute;
-  top: 34em;
-  left: 2.5em;
-  color: var(--secondery-color);
+  top: 3.4em;
+  left: 85vw;
   transform: translateX(0);
-  transition: transform 250ms;
 }
 
 .open-nav {
@@ -71,6 +95,17 @@ nav {
 
 .navigation-open {
   transform: translateX(-100%);
+  animation: menu 500ms ease-in;
+  z-index: -1;
+}
+
+@keyframes menu {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .button-hamburguer-hidden {
@@ -131,7 +166,9 @@ nav {
     background-color: var(--primary-color);
   }
 
-  .nav-item:hover::after {
+  .nav-item:hover::after,
+  .nav-item:focus::after,
+  .nav-item:active::after {
     transform: translateX(-50%) scaleX(1);
   }
 }

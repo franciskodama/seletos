@@ -45,7 +45,7 @@
 
 @media only screen and (min-width: 62em) {
   .section-mission blockquote {
-    max-width: 65%;
+    max-width: 50%;
   }
 }
 
