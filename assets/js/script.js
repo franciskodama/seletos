@@ -15,8 +15,6 @@ openButton.addEventListener("click", () => {
   buttonHamburguer.classList.add('button-hamburguer-hidden');
 });
 
-
-
 const closeButtonAfterClick = document.querySelectorAll('.smooth-scroll');
 for (let i = 0; i < closeButtonAfterClick.length; i++) {
   closeButtonAfterClick[i].addEventListener("click", () => {
@@ -40,16 +38,13 @@ new Glide('.carousel-packages', {
     768: {
       perView: 1
     }
-    
   }
-
 }).mount()
 
 new Glide('.carousel-testimonials', {
   type: 'carousel',
   perView: 1,
   autoplay: 3000,
-
 }).mount()
 
 

@@ -1,6 +1,10 @@
+/* ----- CENTER CLASS ----- */
+
 .center {
   text-align: center;
 }
+
+/* ----- BLINK CLASS ----- */
 
 .blink {
   animation: 1s infinite blink;
@@ -17,6 +21,8 @@
     opacity: 1;
   }
 }
+
+/* ----- LIGHTBOX ----- */
 
 .lightbox {
   display: none;

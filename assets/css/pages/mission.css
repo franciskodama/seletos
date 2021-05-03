@@ -39,14 +39,11 @@
 
 @media only screen and (min-width: 48em) {
   .section-mission blockquote {
-    max-width: 78%;
+    max-width: 60%;
   }
 }
 
 @media only screen and (min-width: 62em) {
-  .section-mission blockquote {
-    max-width: 50%;
-  }
 }
 
 @media only screen and (min-width: 75em) {

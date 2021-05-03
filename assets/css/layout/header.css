@@ -54,26 +54,6 @@ nav {
   color: var(--quaternary-color);
 }
 
-/* .nav-item::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  left: 50%;
-  bottom: -3px;
-  transform: translateX(-50%) scaleX(0);
-  transform-origin: 50% 50%;
-  transition: transform 250ms;
-  background-color: var(--primary-color);
-}
-
-.nav-item:hover::after,
-.nav-item:focus::after,
-.nav-item:active::after {
-  transform: translateX(-50%) scaleX(1);
-} */
-
 .open-nav,
 .close-nav {
   border: 0;
@@ -163,7 +143,7 @@ nav {
     transform: translateX(-50%) scaleX(0);
     transform-origin: 50% 50%;
     transition: transform 250ms;
-    background-color: var(--primary-color);
+    background-color: var(--quaternary-color);
   }
 
   .nav-item:hover::after,
