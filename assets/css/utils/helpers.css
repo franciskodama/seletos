@@ -4,6 +4,22 @@
   text-align: center;
 }
 
+/* ----- BOLD CLASS ----- */
+
+.bold {
+  font-weight: 600;
+}
+
+/* ----- HIDDEN CLASS ----- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: -1000em;
+  overflow: hidden;
+}
+
 /* ----- BLINK CLASS ----- */
 
 .blink {

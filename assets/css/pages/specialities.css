@@ -1,3 +1,17 @@
+.specialities-text {
+  text-align: center;
+  margin: 1em auto;
+  max-width: 65%;
+}
+
+.specialities-text em {
+  color: var(--secondery-color);
+}
+
+.specialities-formula {
+  margin-bottom: 2.5em;
+}
+
 .specialities-container {
   display: flex;
   flex-wrap: wrap;

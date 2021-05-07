@@ -11,9 +11,9 @@
   text-align: left;
 }
 
-.company-left-container .text-light {
-  margin: 3em 0 2em 0;
-  max-width: 20em;
+.company-left-container > .text-light {
+  margin: 0.5em 0 2em 0;
+  max-width: 40em;
 }
 
 .company-left-container li {
@@ -28,7 +28,7 @@
 
 .company-left-container img {
   width: 1.8rem;
-  margin: 0.5em 1em;
+  margin: 1em 1em;
 }
 
 /* ------ RIGHT CONTAINER ------ */

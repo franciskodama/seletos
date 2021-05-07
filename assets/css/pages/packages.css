@@ -1,4 +1,4 @@
-.glide__slide{
+.glide__slide {
   display: flex;
   justify-content: center;
 }
@@ -47,6 +47,7 @@
 
 .packages-button {
   margin: 0 auto 3em auto;
+  width: 100%;
 }
 
 /* ---- END GRID ---- */
