@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.company-differential {
+  margin: 0.4em 0;
+}
+
 /* ------ LEFT CONTAINER ------ */
 
 .company-left-container h3,
