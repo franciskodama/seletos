@@ -40,7 +40,7 @@ The key features of the project were Flexbox, Display Grid, some simple animatio
 </br>
 
 <a href="https://www.fkodama.com/" target="_blank">
-<img align="left" width="196px" src="https://www.fkodama.com/_permanent-files/git/portfolio.svg"  />
+<img align="left" width="196px" src="https://www.fkodama.com/_permanent/git/portfolio.svg"  />
 </a>
 
 </br>
@@ -52,17 +52,17 @@ The key features of the project were Flexbox, Display Grid, some simple animatio
 
 <br />
 <a href="https://www.fkodama.com/" target="_blank">
-<img align="left" width="40px" src="https://www.fkodama.com/_permanent-files/git/website.svg"  />
+<img align="left" width="40px" src="https://www.fkodama.com/_permanent/git/website.svg"  />
 </a>
 
 <a href="https://www.linkedin.com/in/kodama/" target="_blank">
-  <img align="left" width="40px" src="https://www.fkodama.com/_permanent-files/git/linkedin.svg"  />
+  <img align="left" width="40px" src="https://www.fkodama.com/_permanent/git/linkedin.svg"  />
 </a>
 <a href="https://www.instagram.com" target="_blank">
-  <img align="left" width="40px" src="https://www.fkodama.com/_permanent-files/git/instagram.svg"  />
+  <img align="left" width="40px" src="https://www.fkodama.com/_permanent/git/instagram.svg"  />
 </a>
 <a href="mailto:fk@fkodama.com">
-  <img align="left" width="43px" src="https://www.fkodama.com/_permanent-files/git/email.svg" />
+  <img align="left" width="43px" src="https://www.fkodama.com/_permanent/git/email.svg" />
 </a>
 
 </br>
